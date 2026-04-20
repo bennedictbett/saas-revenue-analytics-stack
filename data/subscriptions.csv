@@ -1,0 +1,501 @@
+user_id,company_name,email,plan,mrr,status,signup_date,churn_date,churn_reason,payment_failures,country,industry,created_at,account_age_days,acquisition_channel,signup_month
+usr_0001,Fowler Tech,figueroajohn@doyle.net,starter,49,active,2026-03-25,,,0,US,Logistics,2026-03-25,26,paid_ads,2026-03
+usr_0002,Garza Inc,davisjesse@johnson.net,growth,149,active,2026-04-13,,,0,US,Fintech,2026-04-13,7,paid_ads,2026-04
+usr_0003,Robinson-Lawrence,blakeerik@peterson-moore.com,pro,399,churned,2025-08-27,2025-11-28,switched_competitor,0,US,Real Estate Tech,2025-08-27,236,sales,2025-08
+usr_0004,Davis Inc,melanie94@blair.com,pro,399,active,2025-10-27,,,0,US,Education Tech,2025-10-27,175,paid_ads,2025-10
+usr_0005,Dudley Digital Inc,smiller@montgomery.com,growth,149,churned,2025-06-29,2025-08-11,missing_features,2,US,HR Tech,2025-06-29,295,sales,2025-06
+usr_0006,Williams Analytics Inc,kendragalloway@delacruz.com,growth,149,active,2026-01-12,,,0,US,Education Tech,2026-01-12,98,organic,2026-01
+usr_0007,Chavez Solutions Group,francisco53@adams.org,starter,49,churned,2025-12-13,2026-03-31,switched_competitor,1,GB,E-commerce,2025-12-13,128,organic,2025-12
+usr_0008,Reid Solutions Inc,frankgray@watts.com,growth,149,active,2026-04-03,,,0,FR,SaaS / Software,2026-04-03,17,referral,2026-04
+usr_0009,Underwood LLC,nadams@walter.biz,enterprise,999,active,2025-12-14,,,0,US,Cybersecurity,2025-12-14,127,paid_ads,2025-12
+usr_0010,"Ellis, Baker and Wright",julie69@cox-osborn.com,growth,149,active,2026-01-13,,,0,US,Real Estate Tech,2026-01-13,97,paid_ads,2026-01
+usr_0011,Hicks Solutions Inc,camposmichelle@burton.biz,growth,149,active,2026-04-04,,,2,FR,E-commerce,2026-04-04,16,paid_ads,2026-04
+usr_0012,Carlson Solutions Group,djames@king.com,growth,149,active,2026-02-09,,,0,AU,Fintech,2026-02-09,70,paid_ads,2026-02
+usr_0013,"Dyer, Potter and Mack",daniel62@smith-bowen.com,pro,399,churned,2025-11-29,2026-03-07,too_expensive,1,ZA,Logistics,2025-11-29,142,organic,2025-11
+usr_0014,"Gill, Romero and Rodriguez",meagan89@hernandez.net,pro,399,churned,2025-11-21,2026-02-07,switched_competitor,2,GB,E-commerce,2025-11-21,150,sales,2025-11
+usr_0015,Ashley Ventures Inc,georgetracy@hickman.com,growth,149,active,2026-03-31,,,0,US,SaaS / Software,2026-03-31,20,partner,2026-03
+usr_0016,Brown Labs,millertodd@spence.com,enterprise,999,active,2026-03-09,,,0,AU,E-commerce,2026-03-09,42,partner,2026-03
+usr_0017,Anderson Analytics Group,karroyo@rose-obrien.com,growth,149,active,2026-01-10,,,0,US,Logistics,2026-01-10,100,organic,2026-01
+usr_0018,"Campos, Vaughn and Marquez",pcarney@kim-holmes.com,starter,49,churned,2026-02-22,2026-03-31,too_expensive,4,CA,SaaS / Software,2026-02-22,57,sales,2026-02
+usr_0019,Walker LLC,chapmanjerry@smith.com,growth,149,active,2025-11-18,,,1,US,Healthcare Tech,2025-11-18,153,paid_ads,2025-11
+usr_0020,Jones Inc,chad34@washington.org,starter,49,active,2026-03-26,,,0,FR,Cybersecurity,2026-03-26,25,paid_ads,2026-03
+usr_0021,Johnston Systems,kristenaguirre@davis.biz,pro,399,churned,2025-08-09,2025-10-21,missing_features,0,US,Fintech,2025-08-09,254,organic,2025-08
+usr_0022,Henderson-Owens,nuneztracey@brown.com,pro,399,churned,2025-11-14,2026-04-19,too_expensive,2,US,Fintech,2025-11-14,157,partner,2025-11
+usr_0023,Mcbride Analytics Ltd,wrightjames@taylor-white.info,pro,399,churned,2025-06-20,2025-08-19,missing_features,2,GB,Cybersecurity,2025-06-20,304,sales,2025-06
+usr_0024,Baxter Inc,jmorton@williams.com,growth,149,active,2026-03-02,,,0,AU,HR Tech,2026-03-02,49,referral,2026-03
+usr_0025,House and Sons,richardolson@barrera-martin.com,growth,149,active,2025-11-30,,,0,US,Marketing / AdTech,2025-11-30,141,partner,2025-11
+usr_0026,Baker-Bowers,smitchell@cowan.com,starter,49,churned,2025-07-11,2026-01-13,missing_features,2,US,E-commerce,2025-07-11,283,organic,2025-07
+usr_0027,Phillips Inc,adkinsbrian@woods.com,starter,49,active,2026-02-11,,,0,GB,Real Estate Tech,2026-02-11,68,organic,2026-02
+usr_0028,"Miller, Lopez and Larson",richarddavid@sanchez.biz,enterprise,999,churned,2025-06-01,2026-01-20,switched_competitor,0,GB,Logistics,2025-06-01,323,paid_ads,2025-06
+usr_0029,Sandoval Labs,sarah35@baker.com,pro,399,active,2026-01-11,,,0,NL,Marketing / AdTech,2026-01-11,99,referral,2026-01
+usr_0030,Bryant Works,smithchristine@ferrell.com,pro,399,active,2026-01-31,,,1,US,HR Tech,2026-01-31,79,organic,2026-01
+usr_0031,Mahoney Inc,mikemoore@warner.net,starter,49,churned,2026-02-05,2026-03-06,switched_competitor,3,DE,Fintech,2026-02-05,74,paid_ads,2026-02
+usr_0032,Contreras PLC,sarah12@wilson-rodriguez.net,growth,149,churned,2026-02-06,2026-04-07,too_expensive,0,US,SaaS / Software,2026-02-06,73,referral,2026-02
+usr_0033,Moore HQ,cassandra53@walters.com,starter,49,active,2025-06-30,,,0,US,HR Tech,2025-06-30,294,sales,2025-06
+usr_0034,Davis Labs,ccalderon@cook.com,starter,49,active,2025-06-21,,,1,US,Education Tech,2025-06-21,303,sales,2025-06
+usr_0035,Figueroa PLC,hhoffman@landry.com,starter,49,active,2025-11-11,,,2,AU,Healthcare Tech,2025-11-11,160,referral,2025-11
+usr_0036,Gardner Analytics Inc,brandi26@williams.com,starter,49,churned,2025-09-06,2026-02-15,switched_competitor,3,NL,E-commerce,2025-09-06,226,sales,2025-09
+usr_0037,Clark-Wright,gomezanita@dickson-brady.com,starter,49,churned,2025-12-11,2026-03-29,too_expensive,3,US,Fintech,2025-12-11,130,sales,2025-12
+usr_0038,Cherry and Sons,vjohnson@patton-jenkins.com,starter,49,active,2026-04-02,,,0,US,Healthcare Tech,2026-04-02,18,paid_ads,2026-04
+usr_0039,Adams Works,reyesbenjamin@walker-velasquez.info,starter,49,churned,2025-07-03,2025-09-11,poor_onboarding,0,US,HR Tech,2025-07-03,291,paid_ads,2025-07
+usr_0040,Torres-Pope,jeffreykeller@murphy-lin.com,enterprise,999,active,2026-03-22,,,0,US,Marketing / AdTech,2026-03-22,29,organic,2026-03
+usr_0041,May-Ross,sheila14@carpenter.com,growth,149,active,2025-09-13,,,0,SG,HR Tech,2025-09-13,219,paid_ads,2025-09
+usr_0042,Carlson LLC,samuel81@lam-lee.com,growth,149,active,2026-03-19,,,0,CA,Marketing / AdTech,2026-03-19,32,referral,2026-03
+usr_0043,"Graham, Meyer and Drake",michaeljones@mccall.com,starter,49,churned,2025-10-04,2026-01-06,too_expensive,2,GB,Logistics,2025-10-04,198,paid_ads,2025-10
+usr_0044,Cortez Ventures Ltd,william65@terry-spencer.com,growth,149,active,2025-10-08,,,0,US,Healthcare Tech,2025-10-08,194,organic,2025-10
+usr_0045,Ortega-Gray,christinaturner@bass.org,starter,49,active,2025-10-05,,,0,AU,E-commerce,2025-10-05,197,partner,2025-10
+usr_0046,"Pena, Marshall and Ramos",williamleon@jackson.org,starter,49,active,2026-04-14,,,0,US,Logistics,2026-04-14,6,sales,2026-04
+usr_0047,Davis-Crane,emilywalker@hernandez.com,growth,149,churned,2025-09-13,2025-11-13,missing_features,2,NL,Education Tech,2025-09-13,219,sales,2025-09
+usr_0048,Riggs Solutions Ltd,gibsonolivia@lee.com,enterprise,999,active,2025-11-25,,,0,US,Healthcare Tech,2025-11-25,146,sales,2025-11
+usr_0049,Douglas Inc,osbornejeffery@holmes.com,enterprise,999,active,2025-10-30,,,1,AU,Cybersecurity,2025-10-30,172,referral,2025-10
+usr_0050,Bryant AI,jcontreras@stewart.net,growth,149,active,2025-06-22,,,0,IN,Education Tech,2025-06-22,302,organic,2025-06
+usr_0051,Rivas-Kelley,juliawells@walton-larsen.com,growth,149,churned,2025-10-18,2025-11-21,missing_features,0,DE,Logistics,2025-10-18,184,organic,2025-10
+usr_0052,Cannon Labs,rsims@jones-mitchell.com,growth,149,churned,2025-09-18,2025-11-19,switched_competitor,1,US,E-commerce,2025-09-18,214,organic,2025-09
+usr_0053,Flores-Fernandez,edwardreyes@mccarthy.biz,starter,49,churned,2025-07-01,2025-08-26,no_longer_needed,1,KE,Real Estate Tech,2025-07-01,293,paid_ads,2025-07
+usr_0054,Russell Digital Group,nperry@price-carrillo.com,pro,399,active,2025-12-05,,,0,FR,HR Tech,2025-12-05,136,paid_ads,2025-12
+usr_0055,Gates Works,wwoods@molina-castaneda.biz,pro,399,active,2025-06-10,,,0,DE,Education Tech,2025-06-10,314,partner,2025-06
+usr_0056,Medina Systems,tracynelson@johnson-rogers.biz,growth,149,churned,2025-07-08,2025-08-26,switched_competitor,1,US,SaaS / Software,2025-07-08,286,organic,2025-07
+usr_0057,Ramsey Ventures Ltd,ncalhoun@johnson.com,growth,149,churned,2025-09-01,2026-03-07,missing_features,0,IN,Logistics,2025-09-01,231,partner,2025-09
+usr_0058,Day and Sons,qwhite@murphy-gibson.com,starter,49,active,2026-04-15,,,0,KE,SaaS / Software,2026-04-15,5,referral,2026-04
+usr_0059,Juarez Labs,aramirez@conley-ruiz.net,pro,399,active,2026-03-08,,,0,AU,Cybersecurity,2026-03-08,43,organic,2026-03
+usr_0060,Williams Ventures Inc,jeffrey10@herring.com,starter,49,active,2025-09-29,,,0,US,Real Estate Tech,2025-09-29,203,referral,2025-09
+usr_0061,"Hernandez, Martinez and Caldwell",stevenscott@jackson-lawson.com,pro,399,active,2025-07-17,,,0,US,Healthcare Tech,2025-07-17,277,partner,2025-07
+usr_0062,Strickland Ventures Group,tamirodriguez@hickman.biz,starter,49,churned,2025-10-11,2025-11-27,missing_features,1,AU,Education Tech,2025-10-11,191,paid_ads,2025-10
+usr_0063,Sanders Digital Group,charlesvaughn@sanchez.org,pro,399,churned,2025-05-13,2025-10-26,missing_features,1,US,E-commerce,2025-05-13,342,paid_ads,2025-05
+usr_0064,Trujillo IO,reedross@jones-holland.com,pro,399,active,2026-03-29,,,0,IN,Marketing / AdTech,2026-03-29,22,paid_ads,2026-03
+usr_0065,Atkinson HQ,xgarcia@snow.com,pro,399,active,2026-03-04,,,0,US,Marketing / AdTech,2026-03-04,47,organic,2026-03
+usr_0066,Gross Ventures Group,christina87@graham-simon.com,starter,49,active,2026-02-16,,,0,GB,SaaS / Software,2026-02-16,63,organic,2026-02
+usr_0067,Christian-Rivas,ramirezshannon@hudson-barnett.com,starter,49,active,2026-02-02,,,0,US,Cybersecurity,2026-02-02,77,referral,2026-02
+usr_0068,Snyder LLC,tonykelly@peterson-beard.com,growth,149,churned,2025-09-02,2025-12-14,missing_features,0,GB,HR Tech,2025-09-02,230,organic,2025-09
+usr_0069,"Smith, Vaughan and Miller",wfreeman@vaughn.info,enterprise,999,active,2025-09-24,,,0,DE,Fintech,2025-09-24,208,organic,2025-09
+usr_0070,West Works,davisjeffrey@sanchez.net,enterprise,999,active,2025-07-25,,,0,CA,HR Tech,2025-07-25,269,organic,2025-07
+usr_0071,Schmidt Labs,jbarajas@bell-chavez.com,starter,49,active,2026-02-02,,,0,US,Logistics,2026-02-02,77,sales,2026-02
+usr_0072,Hall-Griffith,david82@robinson.com,growth,149,churned,2025-12-20,2026-01-21,no_longer_needed,1,CA,SaaS / Software,2025-12-20,121,sales,2025-12
+usr_0073,"Lawrence, Wolf and Carlson",wallkenneth@white-smith.net,growth,149,active,2026-03-12,,,1,CA,Fintech,2026-03-12,39,organic,2026-03
+usr_0074,Hill Inc,heidi27@salas.com,growth,149,churned,2025-08-14,2025-10-29,switched_competitor,1,DE,HR Tech,2025-08-14,249,sales,2025-08
+usr_0075,Harrison Ventures Group,dpeterson@everett-woods.com,enterprise,999,active,2026-03-26,,,0,US,Real Estate Tech,2026-03-26,25,organic,2026-03
+usr_0076,Vasquez-Ray,hernandezlisa@miller-wright.net,starter,49,active,2026-04-19,,,0,US,Healthcare Tech,2026-04-19,1,organic,2026-04
+usr_0077,Obrien-Gibbs,kimberlyjames@evans-chapman.biz,growth,149,active,2025-09-26,,,0,AU,Logistics,2025-09-26,206,referral,2025-09
+usr_0078,Torres Labs,lynchjody@garrett.com,starter,49,active,2026-03-13,,,0,US,Education Tech,2026-03-13,38,organic,2026-03
+usr_0079,Moore Cloud Group,andreamoore@hayes-wheeler.com,growth,149,active,2025-12-11,,,0,SG,Real Estate Tech,2025-12-11,130,organic,2025-12
+usr_0080,Johnson HQ,jasmine71@hall.org,pro,399,active,2025-09-07,,,0,CA,Fintech,2025-09-07,225,organic,2025-09
+usr_0081,Guerrero Works,ronaldstephens@hernandez.com,starter,49,active,2025-08-25,,,0,CA,Real Estate Tech,2025-08-25,238,sales,2025-08
+usr_0082,Sparks PLC,scott74@powell.info,enterprise,999,active,2026-03-04,,,0,AU,HR Tech,2026-03-04,47,paid_ads,2026-03
+usr_0083,George Group,cassandra01@hayden.org,starter,49,active,2026-03-24,,,0,US,Marketing / AdTech,2026-03-24,27,paid_ads,2026-03
+usr_0084,Sampson HQ,barbara27@pearson.org,starter,49,churned,2026-02-13,2026-04-04,no_longer_needed,3,US,HR Tech,2026-02-13,66,organic,2026-02
+usr_0085,Graham Digital Ltd,ecosta@ortiz-morris.com,starter,49,churned,2025-08-28,2025-12-07,too_expensive,2,US,SaaS / Software,2025-08-28,235,partner,2025-08
+usr_0086,Rivera Ltd,zroberts@johnson.com,enterprise,999,active,2025-10-25,,,0,US,Cybersecurity,2025-10-25,177,paid_ads,2025-10
+usr_0087,Cordova Tech,ahancock@booth.net,enterprise,999,active,2025-12-14,,,0,BR,Healthcare Tech,2025-12-14,127,paid_ads,2025-12
+usr_0088,Cox AI,wgarrett@harris.com,growth,149,active,2025-12-10,,,0,US,Logistics,2025-12-10,131,organic,2025-12
+usr_0089,Pennington Systems,fgilmore@johnson.org,starter,49,churned,2025-08-14,2026-02-02,missing_features,3,IN,E-commerce,2025-08-14,249,organic,2025-08
+usr_0090,Mckinney LLC,tranchristopher@murray.com,growth,149,churned,2025-07-09,2025-09-19,switched_competitor,2,CA,Real Estate Tech,2025-07-09,285,paid_ads,2025-07
+usr_0091,Jimenez Analytics Group,william46@baird-sanchez.net,starter,49,churned,2025-08-20,2025-11-27,switched_competitor,3,CA,Healthcare Tech,2025-08-20,243,paid_ads,2025-08
+usr_0092,Thomas Works,sandraromero@shields.biz,starter,49,active,2025-11-30,,,1,GB,E-commerce,2025-11-30,141,sales,2025-11
+usr_0093,Villa-Romero,campbellkenneth@carpenter.info,starter,49,active,2026-03-14,,,1,SG,HR Tech,2026-03-14,37,organic,2026-03
+usr_0094,Ryan Ventures Ltd,martin86@cantu-kane.com,growth,149,active,2025-07-16,,,1,AU,Real Estate Tech,2025-07-16,278,paid_ads,2025-07
+usr_0095,"Reyes, Chase and Jenkins",julie66@sparks.com,starter,49,active,2026-04-03,,,1,NL,Cybersecurity,2026-04-03,17,partner,2026-04
+usr_0096,Martinez HQ,molly71@lozano.com,pro,399,active,2026-03-25,,,0,DE,Fintech,2026-03-25,26,organic,2026-03
+usr_0097,Harrison LLC,cindy61@phelps-villarreal.biz,starter,49,active,2026-03-14,,,0,US,SaaS / Software,2026-03-14,37,sales,2026-03
+usr_0098,Sims-Clay,cbrennan@jones.com,starter,49,churned,2025-09-27,2025-12-03,too_expensive,2,CA,Fintech,2025-09-27,205,paid_ads,2025-09
+usr_0099,Francis Works,wgood@padilla.com,growth,149,active,2026-03-11,,,0,SG,Cybersecurity,2026-03-11,40,paid_ads,2026-03
+usr_0100,Berger HQ,nguyenbrian@brooks-thomas.net,starter,49,active,2025-04-20,,,0,GB,Logistics,2025-04-20,365,paid_ads,2025-04
+usr_0101,Knight-Sparks,gregorylynch@harvey-allen.org,starter,49,churned,2025-05-05,2025-06-09,missing_features,2,BR,Logistics,2025-05-05,350,referral,2025-05
+usr_0102,Hall Ltd,steve07@byrd-moore.info,pro,399,active,2025-06-19,,,0,DE,Real Estate Tech,2025-06-19,305,sales,2025-06
+usr_0103,Huerta-Evans,dvaughn@gonzalez-cruz.info,growth,149,active,2025-09-12,,,0,CA,Healthcare Tech,2025-09-12,220,referral,2025-09
+usr_0104,Rodriguez Solutions Ltd,karmstrong@haney-phillips.biz,starter,49,active,2026-03-18,,,0,US,Cybersecurity,2026-03-18,33,paid_ads,2026-03
+usr_0105,Smith-Grimes,lozanojulie@parsons-hall.com,starter,49,churned,2025-12-01,2025-12-25,no_longer_needed,4,NL,HR Tech,2025-12-01,140,partner,2025-12
+usr_0106,Fields PLC,erica21@lucas.org,growth,149,active,2026-04-01,,,0,FR,Marketing / AdTech,2026-04-01,19,referral,2026-04
+usr_0107,Diaz HQ,christopherphillips@perry.com,pro,399,active,2026-04-16,,,0,US,HR Tech,2026-04-16,4,referral,2026-04
+usr_0108,Schmidt AI,maria47@francis-morgan.com,enterprise,999,active,2026-03-23,,,0,IN,Education Tech,2026-03-23,28,sales,2026-03
+usr_0109,Mcdonald AI,taylortammy@ramsey.net,growth,149,active,2025-12-13,,,0,CA,Healthcare Tech,2025-12-13,128,organic,2025-12
+usr_0110,Davis-Foster,amanda75@curry.com,growth,149,active,2026-03-26,,,0,US,SaaS / Software,2026-03-26,25,paid_ads,2026-03
+usr_0111,Rodriguez Systems,thomasharvey@murphy.info,pro,399,active,2026-03-12,,,0,US,HR Tech,2026-03-12,39,paid_ads,2026-03
+usr_0112,"Turner, Ortiz and Taylor",torrestravis@young.com,starter,49,active,2025-12-19,,,1,US,Logistics,2025-12-19,122,organic,2025-12
+usr_0113,Price AI,ellen86@newton.com,starter,49,active,2025-05-11,,,0,US,Marketing / AdTech,2025-05-11,344,organic,2025-05
+usr_0114,Gilbert-Crosby,antonio53@wallace-young.com,starter,49,active,2026-01-21,,,0,ZA,Real Estate Tech,2026-01-21,89,organic,2026-01
+usr_0115,Garcia Cloud Inc,amy50@hill-donaldson.info,pro,399,active,2026-01-23,,,1,US,Real Estate Tech,2026-01-23,87,organic,2026-01
+usr_0116,Davis Analytics Inc,darleneharper@williams.com,starter,49,churned,2025-10-06,2025-10-20,switched_competitor,1,US,HR Tech,2025-10-06,196,organic,2025-10
+usr_0117,Buchanan and Sons,gallegosangela@robinson.com,growth,149,active,2026-03-22,,,0,US,SaaS / Software,2026-03-22,29,paid_ads,2026-03
+usr_0118,Kramer HQ,ramireztracey@fernandez.com,growth,149,active,2025-09-10,,,0,US,HR Tech,2025-09-10,222,organic,2025-09
+usr_0119,Guerrero Tech,andersonmichael@chapman.com,pro,399,churned,2025-12-25,2026-03-29,missing_features,2,BR,SaaS / Software,2025-12-25,116,organic,2025-12
+usr_0120,Williams-Harmon,reesethomas@palmer-rodriguez.net,growth,149,active,2025-11-15,,,2,US,E-commerce,2025-11-15,156,paid_ads,2025-11
+usr_0121,Dougherty Inc,stephen00@boone-simmons.com,pro,399,active,2026-03-22,,,1,US,Real Estate Tech,2026-03-22,29,paid_ads,2026-03
+usr_0122,Henry Digital Ltd,fjones@franklin-jones.com,pro,399,active,2026-01-02,,,0,US,Healthcare Tech,2026-01-02,108,organic,2026-01
+usr_0123,"Schultz, Kelley and Nguyen",shawn96@mcguire.net,growth,149,active,2026-03-28,,,0,AU,E-commerce,2026-03-28,23,referral,2026-03
+usr_0124,"Glenn, Jordan and Beasley",dmorgan@perry-davis.biz,growth,149,active,2025-11-11,,,0,GB,E-commerce,2025-11-11,160,paid_ads,2025-11
+usr_0125,Edwards Works,nicholas27@davis.com,pro,399,active,2025-05-11,,,0,IN,Education Tech,2025-05-11,344,paid_ads,2025-05
+usr_0126,Davis-Rodgers,angelawillis@hoffman.biz,starter,49,churned,2025-07-19,2025-11-01,missing_features,3,US,Cybersecurity,2025-07-19,275,sales,2025-07
+usr_0127,Parrish Cloud Group,schmittcaroline@garcia-romero.com,enterprise,999,active,2025-07-27,,,0,US,HR Tech,2025-07-27,267,referral,2025-07
+usr_0128,"Olson, Boone and Bell",danny49@aguirre.org,starter,49,active,2026-03-14,,,0,US,Marketing / AdTech,2026-03-14,37,referral,2026-03
+usr_0129,Austin Solutions Group,lynchdiane@adams.com,growth,149,active,2026-01-19,,,0,US,HR Tech,2026-01-19,91,sales,2026-01
+usr_0130,Dorsey Tech,adam29@morales.com,pro,399,active,2026-04-07,,,0,US,SaaS / Software,2026-04-07,13,paid_ads,2026-04
+usr_0131,Davis HQ,nicholaschavez@wood.com,growth,149,churned,2026-01-18,2026-03-24,too_expensive,1,US,Logistics,2026-01-18,92,organic,2026-01
+usr_0132,"Carlson, Ware and Moore",craigjoseph@coleman.com,starter,49,churned,2025-05-26,2025-09-11,too_expensive,0,US,Real Estate Tech,2025-05-26,329,paid_ads,2025-05
+usr_0133,"Wilson, Jordan and Campbell",trose@walker.com,pro,399,active,2025-12-01,,,0,US,E-commerce,2025-12-01,140,organic,2025-12
+usr_0134,Smith Solutions Ltd,sierra24@murphy-smith.biz,starter,49,active,2026-01-27,,,0,GB,SaaS / Software,2026-01-27,83,referral,2026-01
+usr_0135,Anderson PLC,vincentwhitaker@jones-hensley.com,starter,49,churned,2025-08-09,2025-12-11,no_longer_needed,0,US,Education Tech,2025-08-09,254,sales,2025-08
+usr_0136,Smith-Morse,barbara96@bowman.com,starter,49,active,2025-07-06,,,0,US,Real Estate Tech,2025-07-06,288,sales,2025-07
+usr_0137,Solis PLC,xcollier@kim.com,starter,49,churned,2025-08-20,2026-02-24,missing_features,0,GB,Fintech,2025-08-20,243,organic,2025-08
+usr_0138,Chapman-Warren,vharrell@walker-maxwell.com,pro,399,churned,2025-10-08,2026-02-18,missing_features,1,CA,E-commerce,2025-10-08,194,sales,2025-10
+usr_0139,"Schultz, Schmidt and Lee",michael23@thomas.com,enterprise,999,active,2026-01-24,,,0,CA,Real Estate Tech,2026-01-24,86,paid_ads,2026-01
+usr_0140,"Hernandez, Malone and Jones",kmarshall@cole.org,growth,149,churned,2026-01-16,2026-03-09,missing_features,1,FR,Logistics,2026-01-16,94,organic,2026-01
+usr_0141,Morris Works,edward17@welch-hogan.org,growth,149,active,2025-12-13,,,0,CA,Fintech,2025-12-13,128,sales,2025-12
+usr_0142,Bell Inc,steven00@decker-jones.com,starter,49,churned,2025-12-09,2025-12-26,too_expensive,3,AU,Real Estate Tech,2025-12-09,132,organic,2025-12
+usr_0143,Gilbert AI,jford@huang.com,pro,399,active,2025-04-26,,,0,US,E-commerce,2025-04-26,359,paid_ads,2025-04
+usr_0144,Morris Digital Ltd,dmason@garcia-nolan.com,starter,49,churned,2025-10-17,2025-11-24,missing_features,1,AU,Marketing / AdTech,2025-10-17,185,organic,2025-10
+usr_0145,Haas Cloud Inc,wagnergerald@zimmerman.net,growth,149,churned,2025-06-12,2025-09-19,too_expensive,0,US,Marketing / AdTech,2025-06-12,312,referral,2025-06
+usr_0146,"Bishop, Cox and Hardin",vortiz@harper.com,pro,399,active,2025-08-03,,,0,US,HR Tech,2025-08-03,260,referral,2025-08
+usr_0147,Rivera AI,umitchell@brandt.com,growth,149,active,2026-01-13,,,0,CA,Fintech,2026-01-13,97,organic,2026-01
+usr_0148,Aguilar Digital Inc,sabrinacollins@hale.com,starter,49,active,2026-02-01,,,0,BR,Healthcare Tech,2026-02-01,78,paid_ads,2026-02
+usr_0149,Collins AI,vschneider@santiago.net,pro,399,active,2025-10-22,,,0,AU,SaaS / Software,2025-10-22,180,organic,2025-10
+usr_0150,Davis AI,bromero@parker-bean.com,starter,49,active,2026-01-12,,,1,DE,E-commerce,2026-01-12,98,referral,2026-01
+usr_0151,Meza Digital Inc,ilee@jones.net,enterprise,999,active,2025-08-16,,,0,US,HR Tech,2025-08-16,247,referral,2025-08
+usr_0152,Wise HQ,stanleynancy@anderson.org,pro,399,active,2025-11-30,,,0,DE,Cybersecurity,2025-11-30,141,organic,2025-11
+usr_0153,Lamb Works,jenniferwilliams@rhodes-young.info,growth,149,active,2026-01-10,,,0,US,Logistics,2026-01-10,100,paid_ads,2026-01
+usr_0154,"Mitchell, Goodman and Cole",kylestokes@mckee-lee.org,starter,49,churned,2025-06-18,2025-08-08,no_longer_needed,1,DE,Fintech,2025-06-18,306,paid_ads,2025-06
+usr_0155,Murray-Campbell,ashaw@montoya.com,starter,49,active,2026-01-09,,,0,US,SaaS / Software,2026-01-09,101,organic,2026-01
+usr_0156,Williams-Castillo,angela18@mitchell.com,growth,149,churned,2025-08-13,2025-10-03,poor_support,2,IN,Fintech,2025-08-13,250,organic,2025-08
+usr_0157,Cole HQ,mariahdavis@velasquez.com,starter,49,active,2026-02-12,,,0,US,Real Estate Tech,2026-02-12,67,referral,2026-02
+usr_0158,Perry Tech,pshaw@vang-brooks.com,starter,49,active,2026-02-17,,,0,US,Logistics,2026-02-17,62,organic,2026-02
+usr_0159,Flores Digital Group,combsdebra@taylor.info,growth,149,active,2026-02-16,,,0,US,HR Tech,2026-02-16,63,referral,2026-02
+usr_0160,"Guerra, Blake and Harrison",bullockandrew@conley.org,growth,149,active,2025-11-23,,,1,US,Education Tech,2025-11-23,148,paid_ads,2025-11
+usr_0161,Rose Cloud Group,parsonsjohn@williams.org,growth,149,active,2025-10-15,,,0,US,SaaS / Software,2025-10-15,187,organic,2025-10
+usr_0162,Bryant Ventures Inc,copelandvincent@smith.com,pro,399,churned,2026-01-22,2026-04-05,too_expensive,0,FR,Fintech,2026-01-22,88,sales,2026-01
+usr_0163,Patterson-Mendez,ashleylopez@miller.net,pro,399,active,2026-04-04,,,0,CA,Cybersecurity,2026-04-04,16,organic,2026-04
+usr_0164,"Romero, Mcneil and Spencer",cmarks@hughes.com,starter,49,active,2026-01-28,,,0,NL,Healthcare Tech,2026-01-28,82,paid_ads,2026-01
+usr_0165,Cooper Ltd,ingramjill@anderson-bell.com,pro,399,active,2026-04-08,,,0,US,Healthcare Tech,2026-04-08,12,sales,2026-04
+usr_0166,"Thompson, Maxwell and Marshall",zwelch@brown.com,pro,399,active,2026-01-06,,,0,DE,Education Tech,2026-01-06,104,paid_ads,2026-01
+usr_0167,Carter Cloud Ltd,moodynina@mahoney-robertson.net,starter,49,active,2025-10-27,,,0,DE,Fintech,2025-10-27,175,organic,2025-10
+usr_0168,King-Mullins,justinatkins@glenn.com,growth,149,active,2025-12-25,,,0,US,Logistics,2025-12-25,116,organic,2025-12
+usr_0169,Martinez Ventures Group,samuel67@morgan-lopez.info,enterprise,999,churned,2025-05-24,2026-01-15,contract_ended,1,US,Education Tech,2025-05-24,331,referral,2025-05
+usr_0170,Richardson Analytics Group,laurie61@morrison-short.net,starter,49,churned,2025-08-19,2025-10-02,missing_features,2,US,Cybersecurity,2025-08-19,244,referral,2025-08
+usr_0171,Carter Ventures Ltd,millerdonna@griffin-robbins.com,growth,149,active,2026-01-02,,,0,CA,Fintech,2026-01-02,108,organic,2026-01
+usr_0172,Norris HQ,sergio59@hill-whitney.com,growth,149,active,2026-02-11,,,0,US,HR Tech,2026-02-11,68,partner,2026-02
+usr_0173,Lambert Group,william20@allison.info,starter,49,active,2026-04-01,,,0,US,Cybersecurity,2026-04-01,19,partner,2026-04
+usr_0174,Johnson Ventures Group,youngdeanna@reyes-bradley.org,growth,149,active,2026-02-03,,,0,AU,Marketing / AdTech,2026-02-03,76,referral,2026-02
+usr_0175,Hernandez Labs,xrush@hines-berry.net,starter,49,churned,2026-02-27,2026-04-10,too_expensive,2,GB,Marketing / AdTech,2026-02-27,52,paid_ads,2026-02
+usr_0176,Richardson Cloud Inc,debra31@fitzgerald.net,starter,49,active,2026-01-02,,,0,NL,Real Estate Tech,2026-01-02,108,paid_ads,2026-01
+usr_0177,Mcintyre-Wilson,jane39@benson-lutz.com,enterprise,999,active,2025-10-13,,,0,US,Real Estate Tech,2025-10-13,189,organic,2025-10
+usr_0178,Martinez Cloud Group,hayesrachel@osborn-cochran.com,enterprise,999,active,2025-12-23,,,0,US,Real Estate Tech,2025-12-23,118,organic,2025-12
+usr_0179,"Reed, Brown and Daniels",melissa25@walker.com,enterprise,999,active,2026-02-21,,,0,US,E-commerce,2026-02-21,58,organic,2026-02
+usr_0180,Johnson-Spencer,tanner82@henson.info,growth,149,active,2026-03-19,,,0,CA,Healthcare Tech,2026-03-19,32,paid_ads,2026-03
+usr_0181,"Jenkins, Ortiz and Andrews",teresaday@owens-holmes.com,growth,149,active,2025-09-12,,,0,US,Real Estate Tech,2025-09-12,220,paid_ads,2025-09
+usr_0182,Humphrey Solutions Inc,katrinaanderson@bartlett.com,pro,399,active,2026-02-10,,,0,KE,SaaS / Software,2026-02-10,69,referral,2026-02
+usr_0183,Martin-Morris,michaeleverett@singleton-king.net,enterprise,999,active,2025-12-07,,,0,US,HR Tech,2025-12-07,134,organic,2025-12
+usr_0184,Martinez-Turner,shawgary@moore.org,growth,149,active,2025-12-13,,,0,US,SaaS / Software,2025-12-13,128,sales,2025-12
+usr_0185,Kirby-Elliott,millerstacy@baker.org,starter,49,active,2026-01-10,,,0,ZA,Marketing / AdTech,2026-01-10,100,paid_ads,2026-01
+usr_0186,"Johnson, Small and Gardner",timothy64@jones-brown.info,starter,49,active,2025-05-26,,,0,US,Healthcare Tech,2025-05-26,329,partner,2025-05
+usr_0187,Perry Ventures Group,mharris@edwards.com,starter,49,churned,2025-04-22,2025-09-21,missing_features,0,US,Marketing / AdTech,2025-04-22,363,paid_ads,2025-04
+usr_0188,"Travis, Reed and Ross",zachary15@owens.info,starter,49,active,2026-04-07,,,1,US,Healthcare Tech,2026-04-07,13,referral,2026-04
+usr_0189,Thomas Inc,sonia96@estes.com,starter,49,active,2026-03-17,,,0,US,HR Tech,2026-03-17,34,paid_ads,2026-03
+usr_0190,"Griffith, Lee and Moore",tjimenez@johnson-landry.net,starter,49,churned,2025-11-13,2026-01-05,switched_competitor,1,CA,SaaS / Software,2025-11-13,158,partner,2025-11
+usr_0191,Bryant Tech,jasongomez@campbell.info,starter,49,churned,2025-08-12,2026-02-04,switched_competitor,0,ZA,E-commerce,2025-08-12,251,paid_ads,2025-08
+usr_0192,Mitchell Tech,booneryan@luna-gallagher.com,starter,49,active,2025-12-10,,,0,US,SaaS / Software,2025-12-10,131,paid_ads,2025-12
+usr_0193,Morales PLC,michaelroberts@gordon-duran.com,starter,49,active,2025-10-22,,,0,US,Real Estate Tech,2025-10-22,180,paid_ads,2025-10
+usr_0194,Bryan HQ,andersoncolin@norton-morgan.com,pro,399,active,2026-01-11,,,2,US,Real Estate Tech,2026-01-11,99,paid_ads,2026-01
+usr_0195,Fischer Solutions Group,carriemorales@williams.com,growth,149,active,2025-05-09,,,0,US,Cybersecurity,2025-05-09,346,organic,2025-05
+usr_0196,Stone-Hernandez,markaustin@long.com,growth,149,churned,2025-07-21,2025-10-31,missing_features,3,CA,HR Tech,2025-07-21,273,organic,2025-07
+usr_0197,"Rogers, Clayton and Patel",thomas05@nunez-whitney.org,growth,149,active,2026-02-26,,,0,US,Marketing / AdTech,2026-02-26,53,paid_ads,2026-02
+usr_0198,Parker Solutions Group,carlsonjoseph@patton.com,growth,149,churned,2025-04-21,2025-06-21,no_longer_needed,1,GB,E-commerce,2025-04-21,364,paid_ads,2025-04
+usr_0199,Silva Systems,alexandriagriffith@hernandez-becker.com,starter,49,active,2026-02-15,,,0,CA,Logistics,2026-02-15,64,partner,2026-02
+usr_0200,"Vaughan, Rodriguez and Smith",robert63@shaw-carr.info,growth,149,active,2025-12-05,,,0,AU,Logistics,2025-12-05,136,partner,2025-12
+usr_0201,Salas IO,thorntonapril@nguyen.com,growth,149,churned,2025-06-23,2025-08-19,too_expensive,0,CA,Fintech,2025-06-23,301,organic,2025-06
+usr_0202,Frye Solutions Ltd,vbarr@gomez.com,pro,399,active,2026-02-24,,,0,AU,Cybersecurity,2026-02-24,55,paid_ads,2026-02
+usr_0203,"Washington, Bernard and Ramirez",jeffrey44@clark.com,growth,149,active,2026-02-16,,,0,CA,Fintech,2026-02-16,63,referral,2026-02
+usr_0204,"Peck, Pope and Hill",berryamy@cardenas-blevins.com,growth,149,churned,2025-09-28,2026-03-26,no_longer_needed,0,US,Education Tech,2025-09-28,204,referral,2025-09
+usr_0205,Roberts Digital Ltd,stephanie15@douglas-burgess.com,starter,49,churned,2026-02-04,2026-03-31,switched_competitor,1,DE,Healthcare Tech,2026-02-04,75,referral,2026-02
+usr_0206,Harris Solutions Inc,sarah42@gilbert.com,starter,49,active,2025-06-10,,,0,NL,Education Tech,2025-06-10,314,paid_ads,2025-06
+usr_0207,Sanchez Ventures Inc,danawilliams@rivera-kennedy.com,growth,149,churned,2025-06-05,2025-08-13,too_expensive,1,US,SaaS / Software,2025-06-05,319,sales,2025-06
+usr_0208,Oconnell and Sons,edelgado@santos-avila.com,starter,49,active,2026-03-22,,,0,GB,HR Tech,2026-03-22,29,organic,2026-03
+usr_0209,Mitchell-Brown,pearsonjesse@sharp.com,growth,149,churned,2025-08-28,2026-01-18,poor_support,2,FR,Marketing / AdTech,2025-08-28,235,paid_ads,2025-08
+usr_0210,Khan-Thompson,osbornrandy@lopez-curry.com,starter,49,churned,2026-01-24,2026-02-19,too_expensive,3,US,Fintech,2026-01-24,86,partner,2026-01
+usr_0211,Smith PLC,hebertmatthew@hays-daniels.info,growth,149,churned,2025-09-23,2025-10-30,switched_competitor,1,US,Real Estate Tech,2025-09-23,209,paid_ads,2025-09
+usr_0212,Small Ventures Group,melissamcdonald@lamb.com,enterprise,999,active,2026-01-11,,,1,CA,Fintech,2026-01-11,99,paid_ads,2026-01
+usr_0213,"Stevens, Scott and Lopez",krystal93@carr.biz,pro,399,active,2025-06-14,,,0,US,Real Estate Tech,2025-06-14,310,sales,2025-06
+usr_0214,Wilcox Cloud Inc,christopher12@woods.com,pro,399,active,2026-03-31,,,0,US,HR Tech,2026-03-31,20,paid_ads,2026-03
+usr_0215,Green AI,seanadams@turner-sharp.com,starter,49,churned,2025-11-24,2025-12-21,missing_features,0,US,HR Tech,2025-11-24,147,paid_ads,2025-11
+usr_0216,Green Digital Inc,heather01@parker-sullivan.net,growth,149,active,2025-11-11,,,0,US,HR Tech,2025-11-11,160,organic,2025-11
+usr_0217,"Carrillo, Vaughn and Fowler",michael33@mendoza.org,growth,149,active,2026-04-08,,,0,DE,SaaS / Software,2026-04-08,12,partner,2026-04
+usr_0218,Brooks Solutions Ltd,ztodd@petersen.org,starter,49,active,2026-03-17,,,0,US,SaaS / Software,2026-03-17,34,partner,2026-03
+usr_0219,Fox PLC,christian91@poole.com,enterprise,999,active,2026-01-08,,,1,US,Education Tech,2026-01-08,102,sales,2026-01
+usr_0220,"Herrera, Martin and Bond",nwilson@aguilar.com,enterprise,999,active,2026-01-04,,,2,US,Marketing / AdTech,2026-01-04,106,sales,2026-01
+usr_0221,Chavez Ventures Ltd,dbryant@ford.biz,starter,49,active,2026-02-19,,,0,US,HR Tech,2026-02-19,60,organic,2026-02
+usr_0222,Scott Solutions Inc,reesebeth@henderson.com,enterprise,999,active,2025-06-27,,,0,CA,Education Tech,2025-06-27,297,paid_ads,2025-06
+usr_0223,"Mcknight, Michael and Jones",ajohnson@mack.biz,starter,49,active,2025-12-21,,,0,US,SaaS / Software,2025-12-21,120,sales,2025-12
+usr_0224,Haney-Reyes,rbennett@baxter.com,enterprise,999,active,2025-11-05,,,0,US,Logistics,2025-11-05,166,sales,2025-11
+usr_0225,Haney Group,jessicawalker@avila.info,growth,149,active,2025-12-28,,,0,ZA,E-commerce,2025-12-28,113,paid_ads,2025-12
+usr_0226,Nunez Labs,opatel@murray.com,starter,49,active,2026-01-18,,,0,GB,Education Tech,2026-01-18,92,paid_ads,2026-01
+usr_0227,Lopez HQ,johnsondonna@miranda.com,starter,49,churned,2025-11-19,2025-12-17,no_longer_needed,0,US,E-commerce,2025-11-19,152,paid_ads,2025-11
+usr_0228,Garcia Inc,tharper@sanchez.biz,growth,149,active,2026-03-17,,,0,NG,Education Tech,2026-03-17,34,referral,2026-03
+usr_0229,Gonzales Ventures Inc,karenparsons@gordon.com,starter,49,active,2026-02-09,,,0,DE,HR Tech,2026-02-09,70,sales,2026-02
+usr_0230,"Johnston, Ray and Barton",joel28@gutierrez.com,growth,149,active,2025-12-08,,,0,DE,Real Estate Tech,2025-12-08,133,partner,2025-12
+usr_0231,"Fry, Hobbs and Buck",dpeters@david-powers.net,starter,49,churned,2025-04-20,2025-05-22,missing_features,1,NG,Healthcare Tech,2025-04-20,365,partner,2025-04
+usr_0232,Flores Works,trussell@white-medina.com,growth,149,active,2026-01-14,,,0,US,Logistics,2026-01-14,96,paid_ads,2026-01
+usr_0233,Turner Ltd,lindamelendez@gutierrez.biz,starter,49,active,2026-02-27,,,0,DE,Cybersecurity,2026-02-27,52,sales,2026-02
+usr_0234,Sanchez Tech,markmiller@boone-davis.com,growth,149,churned,2025-09-13,2025-10-26,missing_features,1,GB,Logistics,2025-09-13,219,organic,2025-09
+usr_0235,Williams Systems,mnunez@russo.org,pro,399,active,2025-05-13,,,0,US,Marketing / AdTech,2025-05-13,342,organic,2025-05
+usr_0236,Ramsey Analytics Inc,timothybooth@turner-stout.com,enterprise,999,active,2025-11-17,,,0,GB,HR Tech,2025-11-17,154,organic,2025-11
+usr_0237,Giles Solutions Inc,burgesskaren@dominguez.com,growth,149,active,2026-04-03,,,0,US,Education Tech,2026-04-03,17,paid_ads,2026-04
+usr_0238,Herman-Arnold,oscar85@green-hunt.info,growth,149,active,2026-04-16,,,0,SG,Real Estate Tech,2026-04-16,4,organic,2026-04
+usr_0239,Owens AI,ugill@wood.com,pro,399,active,2025-10-01,,,1,US,Logistics,2025-10-01,201,organic,2025-10
+usr_0240,"Shields, Figueroa and Smith",mphillips@hall-hudson.com,growth,149,active,2026-02-13,,,0,US,E-commerce,2026-02-13,66,organic,2026-02
+usr_0241,Porter Digital Group,jonathan77@jackson-norton.com,starter,49,active,2025-09-27,,,0,BR,Healthcare Tech,2025-09-27,205,sales,2025-09
+usr_0242,Taylor Solutions Ltd,iwhite@bernard.com,growth,149,active,2025-10-15,,,0,US,Education Tech,2025-10-15,187,sales,2025-10
+usr_0243,Landry IO,duranrobert@hall.net,enterprise,999,active,2025-06-24,,,0,ZA,Real Estate Tech,2025-06-24,300,partner,2025-06
+usr_0244,Bryant AI,williamsonelizabeth@durham.net,enterprise,999,active,2025-09-27,,,0,US,Cybersecurity,2025-09-27,205,referral,2025-09
+usr_0245,"Jenkins, Smith and Bowen",andre62@hull.com,starter,49,active,2026-03-14,,,0,US,Marketing / AdTech,2026-03-14,37,partner,2026-03
+usr_0246,Lee PLC,lisa46@watson.info,pro,399,active,2026-01-05,,,0,US,Real Estate Tech,2026-01-05,105,sales,2026-01
+usr_0247,"Sanchez, Terry and Evans",valdezmichele@davis.biz,enterprise,999,active,2026-04-06,,,0,GB,Fintech,2026-04-06,14,organic,2026-04
+usr_0248,Tran Cloud Ltd,walshjacqueline@porter.com,starter,49,churned,2025-04-25,2025-06-07,no_longer_needed,1,US,Marketing / AdTech,2025-04-25,360,referral,2025-04
+usr_0249,Knight Tech,jacobsonsamantha@lewis.org,starter,49,active,2026-04-01,,,0,US,Real Estate Tech,2026-04-01,19,sales,2026-04
+usr_0250,Nelson-Glass,rachel90@mcfarland.com,starter,49,active,2026-04-18,,,0,US,Education Tech,2026-04-18,2,organic,2026-04
+usr_0251,Matthews Ltd,thickman@elliott.biz,growth,149,churned,2025-11-27,2026-01-01,too_expensive,1,US,E-commerce,2025-11-27,144,sales,2025-11
+usr_0252,Rhodes Solutions Ltd,patrick21@mcgee.com,starter,49,active,2025-06-20,,,2,US,Education Tech,2025-06-20,304,paid_ads,2025-06
+usr_0253,Peterson PLC,unovak@walters.info,starter,49,churned,2026-02-09,2026-03-01,too_expensive,1,US,Education Tech,2026-02-09,70,sales,2026-02
+usr_0254,Kelly Group,llopez@james.com,growth,149,active,2025-10-22,,,0,DE,Healthcare Tech,2025-10-22,180,organic,2025-10
+usr_0255,"Jones, Adams and James",jodistewart@davis.info,pro,399,active,2025-12-20,,,0,US,Real Estate Tech,2025-12-20,121,referral,2025-12
+usr_0256,Ward IO,curtis12@cole-peters.biz,growth,149,churned,2025-12-08,2026-02-01,switched_competitor,2,CA,Marketing / AdTech,2025-12-08,133,referral,2025-12
+usr_0257,Garcia Analytics Ltd,gomezchristopher@mueller.biz,pro,399,active,2026-01-12,,,0,US,Education Tech,2026-01-12,98,partner,2026-01
+usr_0258,Maxwell-Hardy,ashleyjackson@jackson-adams.com,pro,399,churned,2025-05-27,2025-11-04,too_expensive,0,US,HR Tech,2025-05-27,328,sales,2025-05
+usr_0259,Snyder Digital Inc,jacksonjoshua@washington-jones.com,growth,149,active,2025-09-14,,,0,US,Logistics,2025-09-14,218,partner,2025-09
+usr_0260,Le Group,stephentaylor@rush.org,enterprise,999,active,2025-07-07,,,0,GB,Education Tech,2025-07-07,287,partner,2025-07
+usr_0261,James Works,scott69@evans.com,enterprise,999,active,2026-03-23,,,0,CA,HR Tech,2026-03-23,28,organic,2026-03
+usr_0262,Mendoza AI,tamaranovak@navarro-chen.org,starter,49,churned,2025-08-11,2025-08-31,too_expensive,2,NG,Education Tech,2025-08-11,252,paid_ads,2025-08
+usr_0263,Casey Labs,nicholas65@frederick.org,growth,149,active,2025-09-29,,,0,US,Cybersecurity,2025-09-29,203,partner,2025-09
+usr_0264,"White, Saunders and Johnson",nhahn@salinas-guerra.com,enterprise,999,active,2026-03-22,,,0,US,Logistics,2026-03-22,29,organic,2026-03
+usr_0265,Chambers-Taylor,john26@jones-ewing.info,starter,49,active,2026-03-26,,,0,GB,Healthcare Tech,2026-03-26,25,organic,2026-03
+usr_0266,"Morales, Hunter and Knapp",ystephens@miles-burnett.org,starter,49,active,2026-03-23,,,1,US,Fintech,2026-03-23,28,referral,2026-03
+usr_0267,Little AI,rodriguezjohn@kelly.biz,growth,149,active,2025-12-13,,,0,US,E-commerce,2025-12-13,128,organic,2025-12
+usr_0268,Rasmussen HQ,tammy61@garcia.net,pro,399,active,2025-12-17,,,0,DE,SaaS / Software,2025-12-17,124,organic,2025-12
+usr_0269,"Stone, Carpenter and Johnston",dbrooks@chapman.com,pro,399,active,2025-11-19,,,0,CA,Fintech,2025-11-19,152,organic,2025-11
+usr_0270,Webb HQ,robert11@thomas.com,starter,49,active,2026-01-05,,,0,NG,HR Tech,2026-01-05,105,paid_ads,2026-01
+usr_0271,"Webb, Alvarez and Kim",tflores@patrick.com,pro,399,active,2026-02-01,,,0,FR,E-commerce,2026-02-01,78,organic,2026-02
+usr_0272,Wong-Byrd,sarahyang@thompson.info,starter,49,active,2026-03-15,,,0,US,Logistics,2026-03-15,36,paid_ads,2026-03
+usr_0273,Salinas Ltd,jacobsandoval@johnson-mendez.com,growth,149,active,2025-10-12,,,0,CA,Cybersecurity,2025-10-12,190,paid_ads,2025-10
+usr_0274,Vargas-Price,jamiegoodwin@ray.com,growth,149,active,2025-07-09,,,0,IN,Marketing / AdTech,2025-07-09,285,organic,2025-07
+usr_0275,Nguyen-Ellis,emily78@edwards.com,growth,149,active,2025-09-27,,,0,GB,HR Tech,2025-09-27,205,paid_ads,2025-09
+usr_0276,Bell-Ellis,lisamccarthy@sellers-lawrence.com,starter,49,active,2026-04-11,,,0,FR,SaaS / Software,2026-04-11,9,sales,2026-04
+usr_0277,Edwards Works,kevinwhite@thomas.org,starter,49,active,2026-03-22,,,0,GB,Cybersecurity,2026-03-22,29,paid_ads,2026-03
+usr_0278,Reyes Solutions Group,tommymedina@arias.com,enterprise,999,active,2026-03-25,,,0,GB,Cybersecurity,2026-03-25,26,organic,2026-03
+usr_0279,Taylor Digital Ltd,megan90@crane-washington.com,starter,49,churned,2025-07-09,2025-11-06,too_expensive,2,IN,Marketing / AdTech,2025-07-09,285,referral,2025-07
+usr_0280,Ochoa Cloud Group,fortiz@mckinney-wallace.com,starter,49,churned,2026-02-26,2026-03-13,too_expensive,1,US,Education Tech,2026-02-26,53,paid_ads,2026-02
+usr_0281,Cunningham and Sons,antonio38@jackson-ellis.info,starter,49,active,2025-07-13,,,0,US,Logistics,2025-07-13,281,organic,2025-07
+usr_0282,Dunn Digital Inc,armstrongjoseph@morrow.com,starter,49,churned,2025-07-09,2025-10-11,switched_competitor,3,IN,Logistics,2025-07-09,285,referral,2025-07
+usr_0283,"Alexander, Robinson and Coleman",kennethkidd@baker-atkins.com,growth,149,churned,2026-01-09,2026-03-29,too_expensive,1,CA,Real Estate Tech,2026-01-09,101,referral,2026-01
+usr_0284,Gonzales IO,rowejoel@matthews.biz,starter,49,active,2026-04-19,,,0,NG,Cybersecurity,2026-04-19,1,referral,2026-04
+usr_0285,Jensen and Sons,lindahudson@campbell.com,pro,399,active,2026-01-02,,,0,IN,Marketing / AdTech,2026-01-02,108,paid_ads,2026-01
+usr_0286,Armstrong-Farley,taylorkaren@sellers-riddle.com,growth,149,active,2025-11-09,,,0,US,Logistics,2025-11-09,162,referral,2025-11
+usr_0287,"Cline, Wright and Dawson",kathleenlowe@thomas-chen.biz,pro,399,active,2026-04-16,,,0,CA,Fintech,2026-04-16,4,paid_ads,2026-04
+usr_0288,Brooks Digital Inc,schultznicole@powell.com,starter,49,active,2025-07-04,,,0,NL,E-commerce,2025-07-04,290,paid_ads,2025-07
+usr_0289,"Mayer, Wood and Clements",brandi17@beck.net,growth,149,active,2025-09-10,,,0,US,E-commerce,2025-09-10,222,organic,2025-09
+usr_0290,Robinson-Jordan,troymorris@morgan-lane.org,starter,49,active,2026-02-20,,,0,GB,Healthcare Tech,2026-02-20,59,referral,2026-02
+usr_0291,Phelps Digital Group,patricia00@sims.com,starter,49,active,2026-03-28,,,0,GB,E-commerce,2026-03-28,23,paid_ads,2026-03
+usr_0292,Noble and Sons,bbryant@forbes.com,pro,399,active,2026-03-17,,,0,FR,Education Tech,2026-03-17,34,paid_ads,2026-03
+usr_0293,Baxter LLC,penajohn@beck-banks.com,pro,399,churned,2025-10-18,2026-01-14,poor_support,2,US,E-commerce,2025-10-18,184,organic,2025-10
+usr_0294,Garrett-Barber,rubendavis@smith.com,starter,49,churned,2025-05-15,2025-06-07,too_expensive,0,CA,Fintech,2025-05-15,340,paid_ads,2025-05
+usr_0295,Anderson AI,aprilwallace@dominguez.biz,growth,149,active,2025-07-18,,,0,FR,Logistics,2025-07-18,276,paid_ads,2025-07
+usr_0296,Benson Systems,yjones@cross.com,starter,49,active,2025-06-22,,,0,US,Education Tech,2025-06-22,302,organic,2025-06
+usr_0297,Richardson-Evans,wayala@may.com,pro,399,active,2026-04-17,,,0,US,Real Estate Tech,2026-04-17,3,paid_ads,2026-04
+usr_0298,Jones Digital Ltd,bishopfrank@bowen-fuller.com,pro,399,active,2025-05-20,,,0,AU,HR Tech,2025-05-20,335,organic,2025-05
+usr_0299,Jensen-Ramos,christophergarcia@lawrence.com,enterprise,999,active,2026-01-02,,,0,SG,SaaS / Software,2026-01-02,108,sales,2026-01
+usr_0300,Edwards-Taylor,deanna38@greene.com,growth,149,churned,2025-10-22,2025-12-12,switched_competitor,0,US,Education Tech,2025-10-22,180,sales,2025-10
+usr_0301,Abbott HQ,jamie98@adkins.com,pro,399,churned,2025-09-28,2026-01-30,poor_support,2,CA,Real Estate Tech,2025-09-28,204,organic,2025-09
+usr_0302,Simpson Inc,victorwheeler@oneal.com,growth,149,active,2026-04-06,,,0,US,Education Tech,2026-04-06,14,organic,2026-04
+usr_0303,Hughes PLC,rdiaz@farmer.com,starter,49,churned,2025-05-21,2025-09-11,switched_competitor,0,AU,E-commerce,2025-05-21,334,organic,2025-05
+usr_0304,Matthews Ventures Group,bakerbill@fry.net,starter,49,churned,2025-08-06,2025-08-24,switched_competitor,2,FR,Fintech,2025-08-06,257,organic,2025-08
+usr_0305,Fuller-Mason,zhenderson@davidson.org,pro,399,active,2026-03-08,,,0,US,Marketing / AdTech,2026-03-08,43,sales,2026-03
+usr_0306,Hernandez Tech,collinswilliam@mccann.net,starter,49,churned,2025-07-12,2025-07-29,too_expensive,4,DE,Healthcare Tech,2025-07-12,282,organic,2025-07
+usr_0307,Murphy Solutions Group,collinssamuel@brown.biz,starter,49,churned,2025-06-12,2025-10-17,missing_features,0,US,Education Tech,2025-06-12,312,referral,2025-06
+usr_0308,Chavez PLC,parkerjudith@thompson.com,enterprise,999,churned,2025-05-20,2025-12-22,contract_ended,1,FR,Healthcare Tech,2025-05-20,335,organic,2025-05
+usr_0309,Martin Tech,alexandra42@martinez-norman.com,growth,149,active,2026-01-30,,,0,US,Marketing / AdTech,2026-01-30,80,paid_ads,2026-01
+usr_0310,"Tanner, Wise and Johnson",enelson@joseph-ray.com,growth,149,churned,2025-08-11,2026-02-09,missing_features,1,DE,Healthcare Tech,2025-08-11,252,referral,2025-08
+usr_0311,Crawford Tech,brian92@moore-ayala.org,growth,149,active,2025-07-17,,,0,US,Marketing / AdTech,2025-07-17,277,paid_ads,2025-07
+usr_0312,"Sharp, Perez and Hicks",trevinoalexander@ruiz.com,enterprise,999,active,2026-03-15,,,0,NG,Cybersecurity,2026-03-15,36,organic,2026-03
+usr_0313,White Digital Group,tranrobin@rios.com,pro,399,active,2025-11-04,,,0,GB,Marketing / AdTech,2025-11-04,167,paid_ads,2025-11
+usr_0314,Nelson Tech,duncandavid@winters.com,starter,49,active,2026-02-02,,,1,AU,Education Tech,2026-02-02,77,paid_ads,2026-02
+usr_0315,Finley Ventures Ltd,wileymichelle@murphy-tran.com,starter,49,active,2026-02-27,,,0,US,Cybersecurity,2026-02-27,52,organic,2026-02
+usr_0316,Gonzalez-Elliott,jodi37@vargas-snyder.com,starter,49,active,2026-01-14,,,0,US,Cybersecurity,2026-01-14,96,paid_ads,2026-01
+usr_0317,Oconnor Solutions Inc,edwardrandolph@hall.com,growth,149,active,2026-04-10,,,0,IN,Logistics,2026-04-10,10,organic,2026-04
+usr_0318,Smith-Sandoval,dalton83@vasquez-brown.com,starter,49,active,2026-01-31,,,0,US,Marketing / AdTech,2026-01-31,79,partner,2026-01
+usr_0319,Dawson Cloud Group,williamsjesse@gutierrez.com,growth,149,churned,2025-08-08,2025-09-07,poor_support,3,US,HR Tech,2025-08-08,255,organic,2025-08
+usr_0320,Carpenter Ventures Group,danafoster@bradley.com,starter,49,churned,2025-08-04,2025-08-22,no_longer_needed,1,CA,Fintech,2025-08-04,259,organic,2025-08
+usr_0321,Carter Ventures Inc,sara65@chavez-hall.com,starter,49,churned,2025-06-07,2025-09-13,missing_features,1,KE,SaaS / Software,2025-06-07,317,paid_ads,2025-06
+usr_0322,Chan PLC,moorefrank@edwards-martinez.com,growth,149,active,2026-03-13,,,0,US,E-commerce,2026-03-13,38,referral,2026-03
+usr_0323,Hayes Group,melissa12@torres.com,starter,49,active,2026-01-07,,,0,GB,HR Tech,2026-01-07,103,sales,2026-01
+usr_0324,Hernandez-Dawson,randy04@wilkins-thompson.biz,enterprise,999,active,2025-08-17,,,0,FR,HR Tech,2025-08-17,246,paid_ads,2025-08
+usr_0325,Bond Cloud Ltd,codygarcia@martinez.com,starter,49,churned,2025-10-29,2026-02-08,too_expensive,3,US,Education Tech,2025-10-29,173,paid_ads,2025-10
+usr_0326,Gonzalez Group,gina19@green.com,enterprise,999,active,2026-03-26,,,0,BR,Real Estate Tech,2026-03-26,25,sales,2026-03
+usr_0327,Gonzalez Solutions Inc,flamb@martinez-dunlap.com,pro,399,active,2026-01-15,,,0,IN,Real Estate Tech,2026-01-15,95,organic,2026-01
+usr_0328,Jackson Works,zunderwood@johnson-vega.com,starter,49,active,2025-09-20,,,0,SG,Marketing / AdTech,2025-09-20,212,paid_ads,2025-09
+usr_0329,Lewis-Lopez,sean20@harvey.biz,starter,49,active,2026-04-10,,,0,GB,Cybersecurity,2026-04-10,10,organic,2026-04
+usr_0330,"Mendoza, Miller and Reyes",zgonzalez@wright.com,starter,49,active,2026-03-18,,,1,SG,Marketing / AdTech,2026-03-18,33,sales,2026-03
+usr_0331,Casey-Howard,kcooper@morris.org,pro,399,active,2026-03-15,,,0,US,SaaS / Software,2026-03-15,36,paid_ads,2026-03
+usr_0332,Johnson LLC,stokesthomas@wang-key.com,starter,49,active,2026-01-24,,,0,CA,Education Tech,2026-01-24,86,paid_ads,2026-01
+usr_0333,Garcia HQ,josephvelasquez@brown.biz,enterprise,999,active,2025-09-23,,,0,US,Marketing / AdTech,2025-09-23,209,organic,2025-09
+usr_0334,Kelly Labs,gregorywatkins@wolfe.com,growth,149,active,2026-03-19,,,1,US,Education Tech,2026-03-19,32,partner,2026-03
+usr_0335,"Elliott, Hart and Lopez",lweaver@johnson-brown.org,growth,149,active,2025-06-09,,,0,US,Real Estate Tech,2025-06-09,315,paid_ads,2025-06
+usr_0336,Robinson Analytics Ltd,nsmith@drake.com,enterprise,999,active,2026-03-08,,,0,US,Fintech,2026-03-08,43,referral,2026-03
+usr_0337,Sellers IO,brian29@stark.com,starter,49,churned,2025-09-23,2026-01-06,switched_competitor,0,US,Cybersecurity,2025-09-23,209,paid_ads,2025-09
+usr_0338,Brooks Ltd,vwillis@morris-daugherty.biz,growth,149,active,2026-01-08,,,0,NL,E-commerce,2026-01-08,102,paid_ads,2026-01
+usr_0339,Conner Analytics Inc,lbanks@novak.com,pro,399,active,2026-02-01,,,1,US,Cybersecurity,2026-02-01,78,organic,2026-02
+usr_0340,Wade and Sons,sparker@anderson-daniel.org,starter,49,active,2025-05-28,,,0,US,Education Tech,2025-05-28,327,partner,2025-05
+usr_0341,Myers Solutions Ltd,whitelucas@walker.com,growth,149,active,2026-04-06,,,2,CA,E-commerce,2026-04-06,14,paid_ads,2026-04
+usr_0342,Rivera Systems,youngtoni@fields.com,starter,49,churned,2026-02-17,2026-03-26,switched_competitor,0,US,HR Tech,2026-02-17,62,paid_ads,2026-02
+usr_0343,Smith-Clark,bellkristin@smith.com,growth,149,churned,2025-12-08,2026-01-18,too_expensive,3,IN,Logistics,2025-12-08,133,paid_ads,2025-12
+usr_0344,Snyder-Gray,egarcia@curtis.com,pro,399,active,2026-02-10,,,0,GB,Education Tech,2026-02-10,69,paid_ads,2026-02
+usr_0345,Phillips LLC,stephanie15@barron.com,starter,49,churned,2025-12-12,2026-01-11,too_expensive,3,US,E-commerce,2025-12-12,129,referral,2025-12
+usr_0346,"Mcmahon, Spence and Morgan",bbush@martin.com,growth,149,churned,2025-08-28,2025-09-30,switched_competitor,1,FR,Marketing / AdTech,2025-08-28,235,partner,2025-08
+usr_0347,Rivera HQ,robertspencer@fernandez.com,growth,149,active,2026-03-31,,,0,NL,Real Estate Tech,2026-03-31,20,paid_ads,2026-03
+usr_0348,Williams Cloud Group,xhernandez@patterson.org,enterprise,999,active,2025-12-17,,,0,US,Real Estate Tech,2025-12-17,124,organic,2025-12
+usr_0349,Gonzalez-Johnson,daniellerowland@anthony-parker.biz,enterprise,999,active,2025-12-22,,,0,US,SaaS / Software,2025-12-22,119,sales,2025-12
+usr_0350,Burns-Guerrero,maypaul@mcclure-wood.info,growth,149,active,2025-11-14,,,0,US,Fintech,2025-11-14,157,partner,2025-11
+usr_0351,Baker Group,jeremy49@hernandez.com,pro,399,active,2026-03-22,,,0,CA,Real Estate Tech,2026-03-22,29,paid_ads,2026-03
+usr_0352,Miller Solutions Inc,lindsey69@spencer.net,pro,399,active,2025-07-08,,,1,FR,Real Estate Tech,2025-07-08,286,organic,2025-07
+usr_0353,Barnes AI,parmstrong@evans-foster.com,starter,49,active,2026-01-01,,,0,GB,Real Estate Tech,2026-01-01,109,paid_ads,2026-01
+usr_0354,"Duncan, Black and Duncan",davidtodd@rush.com,starter,49,churned,2025-12-09,2026-01-16,too_expensive,3,AU,Marketing / AdTech,2025-12-09,132,organic,2025-12
+usr_0355,Stokes Solutions Inc,bradmiller@graham.org,pro,399,active,2025-08-21,,,0,US,E-commerce,2025-08-21,242,referral,2025-08
+usr_0356,Flores-Acosta,millerangela@nguyen.com,pro,399,active,2025-09-04,,,1,US,Cybersecurity,2025-09-04,228,sales,2025-09
+usr_0357,Buchanan Labs,jrodriguez@knight.com,growth,149,active,2026-03-16,,,1,US,Fintech,2026-03-16,35,organic,2026-03
+usr_0358,Hart Inc,mikayla56@reyes-washington.org,starter,49,active,2025-12-15,,,0,IN,Healthcare Tech,2025-12-15,126,organic,2025-12
+usr_0359,Kennedy Cloud Ltd,joshuathomas@becker.com,starter,49,churned,2025-12-05,2026-04-07,missing_features,2,AU,Fintech,2025-12-05,136,organic,2025-12
+usr_0360,Vaughn Ventures Group,reesesamantha@smith-roth.com,starter,49,active,2026-03-09,,,1,US,Fintech,2026-03-09,42,sales,2026-03
+usr_0361,Collins Systems,rgarrison@compton.com,growth,149,active,2026-04-15,,,0,US,Healthcare Tech,2026-04-15,5,organic,2026-04
+usr_0362,Turner Analytics Group,uschroeder@daniel-jacobs.com,growth,149,active,2025-05-27,,,0,US,SaaS / Software,2025-05-27,328,organic,2025-05
+usr_0363,Lopez Ventures Ltd,robinrussell@malone-camacho.com,starter,49,active,2025-11-24,,,0,US,Logistics,2025-11-24,147,organic,2025-11
+usr_0364,Robertson Ventures Group,cameronmckinney@taylor-york.org,starter,49,churned,2026-03-24,2026-04-19,missing_features,3,CA,Real Estate Tech,2026-03-24,27,organic,2026-03
+usr_0365,Johnson Systems,nancygonzalez@wright.com,growth,149,churned,2026-02-17,2026-04-14,poor_support,1,US,Logistics,2026-02-17,62,organic,2026-02
+usr_0366,Bush-Hill,owagner@maldonado.com,enterprise,999,active,2026-02-11,,,0,AU,SaaS / Software,2026-02-11,68,organic,2026-02
+usr_0367,Burns AI,ethompson@arnold.com,pro,399,active,2025-09-26,,,0,US,Healthcare Tech,2025-09-26,206,partner,2025-09
+usr_0368,"Rivas, Davis and Johnson",martinashley@vincent.com,pro,399,churned,2025-07-03,2025-09-07,switched_competitor,0,IN,Logistics,2025-07-03,291,sales,2025-07
+usr_0369,Byrd Analytics Group,denise80@smith.org,starter,49,active,2026-02-21,,,0,AU,Marketing / AdTech,2026-02-21,58,sales,2026-02
+usr_0370,Walker PLC,jennifer46@york-stevens.com,pro,399,active,2025-12-11,,,0,US,Real Estate Tech,2025-12-11,130,partner,2025-12
+usr_0371,Turner-Meyer,asilva@key.net,pro,399,active,2026-01-07,,,0,GB,Healthcare Tech,2026-01-07,103,sales,2026-01
+usr_0372,"Wheeler, Campbell and Cohen",rbrown@nguyen.com,enterprise,999,active,2025-06-25,,,0,US,Healthcare Tech,2025-06-25,299,sales,2025-06
+usr_0373,Hernandez and Sons,trujilloleah@powell.com,growth,149,active,2026-03-06,,,0,GB,Fintech,2026-03-06,45,organic,2026-03
+usr_0374,Rios Analytics Group,jordan66@doyle-aguilar.org,pro,399,active,2026-03-29,,,0,GB,E-commerce,2026-03-29,22,paid_ads,2026-03
+usr_0375,Cabrera Digital Inc,jessica38@glover.net,pro,399,active,2025-05-23,,,0,GB,SaaS / Software,2025-05-23,332,paid_ads,2025-05
+usr_0376,Bruce-Pittman,kellyruiz@green.com,starter,49,churned,2025-09-23,2025-10-15,too_expensive,2,CA,SaaS / Software,2025-09-23,209,organic,2025-09
+usr_0377,Arroyo Ventures Ltd,destiny35@garner.biz,growth,149,active,2026-01-20,,,2,DE,Cybersecurity,2026-01-20,90,organic,2026-01
+usr_0378,French Ventures Inc,nathan94@york-ruiz.org,enterprise,999,active,2026-01-01,,,0,KE,E-commerce,2026-01-01,109,organic,2026-01
+usr_0379,Carpenter AI,kennedyjames@dillon.net,starter,49,churned,2025-10-10,2026-02-13,too_expensive,2,US,HR Tech,2025-10-10,192,organic,2025-10
+usr_0380,Evans Solutions Group,pittsedward@cooper.info,starter,49,churned,2025-12-19,2026-01-17,switched_competitor,1,US,SaaS / Software,2025-12-19,122,referral,2025-12
+usr_0381,Stewart Ltd,kimberlyfreeman@hatfield.info,growth,149,active,2026-02-08,,,0,AU,Education Tech,2026-02-08,71,sales,2026-02
+usr_0382,Clark-Ayala,tracygallagher@anderson.biz,starter,49,active,2026-03-24,,,0,US,Real Estate Tech,2026-03-24,27,organic,2026-03
+usr_0383,Powell Labs,creyes@gonzalez.com,starter,49,active,2026-04-10,,,0,AU,Marketing / AdTech,2026-04-10,10,partner,2026-04
+usr_0384,"Lee, Rhodes and Sims",jeremywiley@anderson-reyes.org,starter,49,active,2026-03-23,,,0,US,SaaS / Software,2026-03-23,28,partner,2026-03
+usr_0385,Torres Solutions Group,colonkenneth@bryant-meyer.net,growth,149,active,2025-12-15,,,0,SG,Fintech,2025-12-15,126,organic,2025-12
+usr_0386,Morgan Solutions Ltd,matthewvalenzuela@christensen-martin.biz,starter,49,churned,2025-09-05,2025-12-14,too_expensive,3,FR,Marketing / AdTech,2025-09-05,227,referral,2025-09
+usr_0387,Perez Ltd,jasonjohnson@jackson.com,enterprise,999,active,2026-02-09,,,0,NL,Marketing / AdTech,2026-02-09,70,organic,2026-02
+usr_0388,Mcdowell-Scott,wheelerbrandon@valdez.com,starter,49,active,2026-01-06,,,0,NG,Education Tech,2026-01-06,104,referral,2026-01
+usr_0389,Norris Solutions Inc,hwallace@king.com,pro,399,active,2026-03-25,,,0,ZA,SaaS / Software,2026-03-25,26,paid_ads,2026-03
+usr_0390,Fisher-Garcia,cindy26@hunt.com,starter,49,active,2026-04-12,,,0,US,Real Estate Tech,2026-04-12,8,partner,2026-04
+usr_0391,Wilson-Rodriguez,chelseastrickland@dudley.com,growth,149,active,2026-04-08,,,0,US,Cybersecurity,2026-04-08,12,referral,2026-04
+usr_0392,Williams Works,slozano@rivera-smith.com,starter,49,active,2025-05-19,,,0,DE,Real Estate Tech,2025-05-19,336,referral,2025-05
+usr_0393,Meadows HQ,fhernandez@jones.com,growth,149,churned,2025-10-13,2026-02-12,poor_support,1,GB,Healthcare Tech,2025-10-13,189,organic,2025-10
+usr_0394,Bryant Cloud Ltd,joseph01@sawyer.com,starter,49,churned,2025-12-04,2026-04-10,too_expensive,1,IN,Cybersecurity,2025-12-04,137,referral,2025-12
+usr_0395,"Edwards, Rodgers and Davis",smithdevon@jackson.org,growth,149,churned,2025-11-07,2026-01-13,switched_competitor,3,US,Healthcare Tech,2025-11-07,164,referral,2025-11
+usr_0396,Johns-Davis,ian66@nelson-cruz.info,growth,149,active,2026-04-19,,,0,US,Education Tech,2026-04-19,1,referral,2026-04
+usr_0397,Banks-Robles,andersonjessica@garcia.info,growth,149,active,2025-12-15,,,0,GB,HR Tech,2025-12-15,126,sales,2025-12
+usr_0398,Pham Ventures Group,ywhite@carr-huffman.com,pro,399,active,2026-01-13,,,0,CA,Real Estate Tech,2026-01-13,97,referral,2026-01
+usr_0399,Knapp-Rodriguez,ealexander@pena-smith.net,enterprise,999,active,2026-02-02,,,0,IN,Marketing / AdTech,2026-02-02,77,organic,2026-02
+usr_0400,"Ray, Cunningham and Levine",april91@stanley-wright.com,pro,399,active,2025-12-30,,,0,IN,E-commerce,2025-12-30,111,organic,2025-12
+usr_0401,Alvarado Analytics Ltd,jhernandez@brown.info,starter,49,active,2025-12-28,,,0,DE,Healthcare Tech,2025-12-28,113,paid_ads,2025-12
+usr_0402,Christian Digital Ltd,charlesvasquez@rivera.com,starter,49,active,2025-12-02,,,0,NG,Real Estate Tech,2025-12-02,139,partner,2025-12
+usr_0403,Hunter Digital Group,ppowell@stevens.info,starter,49,churned,2025-08-02,2025-10-23,missing_features,1,AU,E-commerce,2025-08-02,261,sales,2025-08
+usr_0404,Gates Group,david70@powell.net,pro,399,active,2026-02-07,,,2,SG,Real Estate Tech,2026-02-07,72,paid_ads,2026-02
+usr_0405,"Smith, Davis and Munoz",pamela83@powers.com,pro,399,active,2025-11-27,,,0,CA,Education Tech,2025-11-27,144,organic,2025-11
+usr_0406,Velasquez AI,xrivera@greene.info,growth,149,active,2026-02-03,,,0,US,Healthcare Tech,2026-02-03,76,partner,2026-02
+usr_0407,Wilson Labs,aaronkelly@brandt.com,growth,149,active,2025-09-16,,,0,GB,HR Tech,2025-09-16,216,paid_ads,2025-09
+usr_0408,Williams Digital Group,travisunderwood@griffith.com,pro,399,active,2025-08-06,,,0,US,HR Tech,2025-08-06,257,organic,2025-08
+usr_0409,Martinez Labs,ylewis@love.biz,starter,49,churned,2026-02-04,2026-04-05,switched_competitor,1,DE,Logistics,2026-02-04,75,sales,2026-02
+usr_0410,House Ltd,bartonshannon@lawrence.com,pro,399,active,2025-09-05,,,0,US,Cybersecurity,2025-09-05,227,paid_ads,2025-09
+usr_0411,"Fitzgerald, Tran and Reynolds",xglass@holt.com,starter,49,active,2026-01-07,,,0,AU,Logistics,2026-01-07,103,referral,2026-01
+usr_0412,Garcia Solutions Inc,william66@moon.com,pro,399,active,2025-07-12,,,0,US,Logistics,2025-07-12,282,referral,2025-07
+usr_0413,Waller IO,iballard@morrison-tanner.net,growth,149,active,2025-08-20,,,0,GB,Real Estate Tech,2025-08-20,243,organic,2025-08
+usr_0414,Evans Labs,jennifer83@clark.com,starter,49,active,2026-04-10,,,0,DE,E-commerce,2026-04-10,10,organic,2026-04
+usr_0415,Parks Solutions Ltd,tinasantos@gordon.com,starter,49,active,2026-03-12,,,0,AU,Cybersecurity,2026-03-12,39,partner,2026-03
+usr_0416,Page Systems,anna99@mckinney.net,growth,149,active,2026-01-14,,,0,GB,Logistics,2026-01-14,96,organic,2026-01
+usr_0417,Rich-Henderson,millsanthony@brown.com,starter,49,churned,2025-11-17,2025-12-25,no_longer_needed,2,FR,Fintech,2025-11-17,154,organic,2025-11
+usr_0418,Christensen-Martin,frances20@mueller.com,enterprise,999,active,2025-07-29,,,0,GB,Real Estate Tech,2025-07-29,265,referral,2025-07
+usr_0419,Garcia-Parrish,juliahoffman@dixon.com,starter,49,active,2026-04-10,,,0,SG,Real Estate Tech,2026-04-10,10,sales,2026-04
+usr_0420,"Beck, House and Hughes",tammy00@king.info,starter,49,active,2025-06-15,,,0,GB,Logistics,2025-06-15,309,sales,2025-06
+usr_0421,Pruitt Ltd,kari89@parsons.com,growth,149,churned,2026-01-25,2026-02-27,no_longer_needed,2,US,SaaS / Software,2026-01-25,85,paid_ads,2026-01
+usr_0422,Cole Labs,lopezglenn@wilson.com,growth,149,active,2026-03-25,,,0,IN,Healthcare Tech,2026-03-25,26,partner,2026-03
+usr_0423,Anderson Solutions Group,adam72@hernandez.org,pro,399,active,2026-04-10,,,0,US,E-commerce,2026-04-10,10,organic,2026-04
+usr_0424,Ayala Ltd,tracy98@jones-zimmerman.net,growth,149,active,2025-12-17,,,0,SG,Healthcare Tech,2025-12-17,124,paid_ads,2025-12
+usr_0425,Krueger PLC,hartmanerik@herrera.com,growth,149,active,2025-08-29,,,0,CA,SaaS / Software,2025-08-29,234,organic,2025-08
+usr_0426,Alvarado Solutions Ltd,michael39@wells.com,starter,49,churned,2025-06-06,2025-10-09,too_expensive,0,CA,Logistics,2025-06-06,318,organic,2025-06
+usr_0427,Wilson Works,sean99@haley.com,growth,149,active,2026-01-31,,,1,US,HR Tech,2026-01-31,79,sales,2026-01
+usr_0428,James Tech,cruzamber@johnson-black.com,starter,49,active,2026-04-09,,,0,NL,HR Tech,2026-04-09,11,paid_ads,2026-04
+usr_0429,"Lang, Griffin and Williams",lukemiller@jackson.net,enterprise,999,active,2026-01-18,,,0,DE,Healthcare Tech,2026-01-18,92,paid_ads,2026-01
+usr_0430,Sims and Sons,michellecoleman@harris.biz,starter,49,active,2026-03-22,,,0,CA,Healthcare Tech,2026-03-22,29,organic,2026-03
+usr_0431,Lucas Cloud Ltd,burgesseric@love-johnson.com,growth,149,active,2026-02-14,,,0,US,HR Tech,2026-02-14,65,partner,2026-02
+usr_0432,Thompson LLC,andrewsjeremy@russell-hayes.biz,growth,149,churned,2025-06-21,2025-08-29,too_expensive,1,US,Healthcare Tech,2025-06-21,303,paid_ads,2025-06
+usr_0433,Hamilton IO,pricedavid@may.com,starter,49,active,2026-01-27,,,0,NG,Marketing / AdTech,2026-01-27,83,referral,2026-01
+usr_0434,"Richards, Haynes and Jones",robertsgina@miller.biz,pro,399,active,2025-07-03,,,0,US,Marketing / AdTech,2025-07-03,291,organic,2025-07
+usr_0435,Short Labs,wellsamanda@francis.com,starter,49,active,2025-07-28,,,0,US,Real Estate Tech,2025-07-28,266,referral,2025-07
+usr_0436,Choi Systems,kennetheaton@wong.net,pro,399,active,2025-10-17,,,0,NL,Fintech,2025-10-17,185,sales,2025-10
+usr_0437,Martinez Inc,fmedina@clark-figueroa.com,growth,149,churned,2025-04-20,2025-08-26,switched_competitor,0,GB,SaaS / Software,2025-04-20,365,sales,2025-04
+usr_0438,Lewis IO,eugenewalker@lee-white.org,growth,149,active,2026-01-03,,,0,GB,E-commerce,2026-01-03,107,sales,2026-01
+usr_0439,Phelps Cloud Group,enewman@powers-king.com,starter,49,active,2026-03-10,,,0,DE,E-commerce,2026-03-10,41,sales,2026-03
+usr_0440,"Carpenter, Lynn and Howard",craigharvey@stewart.com,starter,49,churned,2025-08-26,2025-09-28,too_expensive,2,KE,Cybersecurity,2025-08-26,237,paid_ads,2025-08
+usr_0441,Jensen Digital Ltd,heather29@diaz.com,starter,49,churned,2025-10-10,2026-03-27,missing_features,1,NL,Cybersecurity,2025-10-10,192,referral,2025-10
+usr_0442,Edwards AI,jenniferdavidson@larsen-taylor.com,starter,49,active,2025-11-01,,,0,US,E-commerce,2025-11-01,170,organic,2025-11
+usr_0443,Humphrey Analytics Group,xgriffin@tucker-rodriguez.org,pro,399,active,2025-12-05,,,0,US,Education Tech,2025-12-05,136,paid_ads,2025-12
+usr_0444,Wilkinson and Sons,josemercado@luna.net,growth,149,churned,2026-02-05,2026-03-12,too_expensive,2,US,E-commerce,2026-02-05,74,referral,2026-02
+usr_0445,"Johnson, Perkins and Sullivan",rebeccaarnold@shannon.com,growth,149,churned,2025-12-08,2026-01-16,poor_support,0,DE,Marketing / AdTech,2025-12-08,133,organic,2025-12
+usr_0446,Diaz Labs,patricialawrence@anderson-mason.com,starter,49,churned,2025-11-07,2025-12-08,too_expensive,4,CA,E-commerce,2025-11-07,164,paid_ads,2025-11
+usr_0447,Sanders Tech,batesmelanie@sutton.com,starter,49,churned,2025-10-26,2025-12-17,too_expensive,1,KE,Logistics,2025-10-26,176,organic,2025-10
+usr_0448,White Works,jillwebb@williams-juarez.com,growth,149,active,2026-03-08,,,1,CA,E-commerce,2026-03-08,43,paid_ads,2026-03
+usr_0449,Baker and Sons,barnettapril@hughes-hardin.com,starter,49,active,2026-02-27,,,0,US,Education Tech,2026-02-27,52,paid_ads,2026-02
+usr_0450,Hooper LLC,padillaadrienne@davenport-baker.net,enterprise,999,active,2025-10-28,,,0,US,Fintech,2025-10-28,174,sales,2025-10
+usr_0451,"Thompson, Valdez and Diaz",blacknicholas@black.com,growth,149,active,2026-04-19,,,0,SG,E-commerce,2026-04-19,1,paid_ads,2026-04
+usr_0452,Sparks-Eaton,shawdon@hall.com,growth,149,churned,2025-05-30,2025-10-01,switched_competitor,2,AU,SaaS / Software,2025-05-30,325,partner,2025-05
+usr_0453,Lewis Cloud Inc,ericguzman@guerrero.com,growth,149,active,2026-02-19,,,0,US,Education Tech,2026-02-19,60,sales,2026-02
+usr_0454,"Wilson, Leonard and Mendoza",deborahjenkins@williams.org,pro,399,active,2026-04-18,,,0,US,Healthcare Tech,2026-04-18,2,paid_ads,2026-04
+usr_0455,Taylor PLC,macdonalddylan@scott.net,starter,49,active,2025-12-25,,,0,US,Marketing / AdTech,2025-12-25,116,paid_ads,2025-12
+usr_0456,Mullen AI,johnsjessica@valentine-robinson.org,starter,49,active,2026-02-26,,,0,BR,Logistics,2026-02-26,53,organic,2026-02
+usr_0457,Haney HQ,ajackson@thomas.org,growth,149,churned,2025-08-21,2025-09-29,poor_support,0,ZA,Logistics,2025-08-21,242,organic,2025-08
+usr_0458,Keller Analytics Inc,gary57@garza.com,pro,399,active,2025-08-09,,,0,GB,Healthcare Tech,2025-08-09,254,organic,2025-08
+usr_0459,Harris PLC,mserrano@thompson.org,pro,399,active,2025-12-10,,,0,FR,SaaS / Software,2025-12-10,131,organic,2025-12
+usr_0460,Rich PLC,davisdonna@ryan.biz,starter,49,churned,2025-05-01,2025-07-02,switched_competitor,2,US,Real Estate Tech,2025-05-01,354,partner,2025-05
+usr_0461,Boyd Digital Ltd,nancy86@mays.biz,growth,149,churned,2025-08-08,2025-09-09,too_expensive,1,US,SaaS / Software,2025-08-08,255,organic,2025-08
+usr_0462,Chapman-Figueroa,colemanjonathan@kent.com,growth,149,churned,2025-05-07,2025-06-27,switched_competitor,2,US,SaaS / Software,2025-05-07,348,paid_ads,2025-05
+usr_0463,"Mcdowell, Ortiz and Lopez",lanedavid@brooks.com,starter,49,active,2026-03-28,,,0,DE,SaaS / Software,2026-03-28,23,partner,2026-03
+usr_0464,Cox-Moore,jose86@diaz.com,enterprise,999,active,2025-12-16,,,0,US,Logistics,2025-12-16,125,organic,2025-12
+usr_0465,Gutierrez AI,jwhite@webb.biz,starter,49,active,2026-03-21,,,0,GB,Fintech,2026-03-21,30,paid_ads,2026-03
+usr_0466,Fitzgerald Ventures Group,adkinssean@avery.com,growth,149,active,2025-08-23,,,1,NG,Cybersecurity,2025-08-23,240,paid_ads,2025-08
+usr_0467,"Mendez, Cohen and Williams",aoconnell@morrow.org,growth,149,active,2026-02-12,,,0,IN,Real Estate Tech,2026-02-12,67,organic,2026-02
+usr_0468,Graham Works,bakernathan@johnson.org,starter,49,active,2025-11-19,,,0,US,Marketing / AdTech,2025-11-19,152,organic,2025-11
+usr_0469,"Meyer, Dawson and Harper",daniellegonzales@jefferson.com,enterprise,999,active,2025-12-09,,,1,US,Marketing / AdTech,2025-12-09,132,organic,2025-12
+usr_0470,Lee Analytics Ltd,christinacraig@allen-smith.com,starter,49,churned,2026-02-10,2026-04-07,switched_competitor,1,US,Healthcare Tech,2026-02-10,69,sales,2026-02
+usr_0471,Shea Group,elizabeth69@holmes.com,growth,149,active,2025-10-23,,,0,AU,Fintech,2025-10-23,179,organic,2025-10
+usr_0472,Dunn Ltd,michael43@mccarty.com,pro,399,active,2025-07-01,,,0,US,Real Estate Tech,2025-07-01,293,organic,2025-07
+usr_0473,Green Cloud Ltd,jhunter@gordon.com,growth,149,active,2026-04-06,,,0,US,Education Tech,2026-04-06,14,paid_ads,2026-04
+usr_0474,Pratt HQ,nancy94@ramos.com,starter,49,churned,2025-11-25,2025-12-09,switched_competitor,1,GB,E-commerce,2025-11-25,146,organic,2025-11
+usr_0475,Ali-Ellis,bmosley@wilson-jones.com,starter,49,active,2026-02-08,,,0,US,Logistics,2026-02-08,71,organic,2026-02
+usr_0476,"Haynes, Mcbride and Gutierrez",zachary04@mitchell.com,starter,49,churned,2025-07-15,2025-08-10,too_expensive,2,AU,Education Tech,2025-07-15,279,organic,2025-07
+usr_0477,Spencer and Sons,nedwards@adams.com,growth,149,churned,2025-07-14,2025-11-22,too_expensive,1,FR,Logistics,2025-07-14,280,organic,2025-07
+usr_0478,Mclaughlin-Young,moniqueclark@conley.com,pro,399,active,2025-11-26,,,0,BR,E-commerce,2025-11-26,145,organic,2025-11
+usr_0479,Moore AI,wilsonchristian@vasquez.com,growth,149,active,2026-04-05,,,0,US,SaaS / Software,2026-04-05,15,referral,2026-04
+usr_0480,Watson-Stewart,travis84@walker-ray.com,starter,49,active,2025-11-12,,,0,US,Marketing / AdTech,2025-11-12,159,paid_ads,2025-11
+usr_0481,"Lloyd, Mendoza and Fernandez",phillip27@wolfe.com,growth,149,churned,2025-10-10,2026-01-30,switched_competitor,2,US,Real Estate Tech,2025-10-10,192,paid_ads,2025-10
+usr_0482,Norris Tech,craignicolas@nguyen.com,growth,149,active,2025-05-19,,,0,CA,Education Tech,2025-05-19,336,partner,2025-05
+usr_0483,Dunn and Sons,thomas95@white-coleman.biz,pro,399,active,2026-04-02,,,0,CA,Real Estate Tech,2026-04-02,18,organic,2026-04
+usr_0484,"Goodwin, Diaz and Morales",iwhite@parks.com,starter,49,active,2025-06-28,,,1,CA,Logistics,2025-06-28,296,referral,2025-06
+usr_0485,Peters HQ,zgonzalez@hernandez.info,pro,399,active,2026-03-19,,,0,US,Education Tech,2026-03-19,32,referral,2026-03
+usr_0486,Taylor Labs,kristen44@garrison.com,starter,49,churned,2025-05-31,2025-06-17,switched_competitor,2,US,E-commerce,2025-05-31,324,partner,2025-05
+usr_0487,Lewis LLC,gcombs@garner-green.com,growth,149,churned,2025-06-29,2025-08-16,missing_features,1,US,Real Estate Tech,2025-06-29,295,organic,2025-06
+usr_0488,Castro Solutions Inc,maurice61@dillon-mccarty.com,starter,49,active,2025-12-09,,,0,IN,Marketing / AdTech,2025-12-09,132,organic,2025-12
+usr_0489,"Johnston, Banks and Thompson",michael87@griffin.info,growth,149,active,2025-10-17,,,0,US,HR Tech,2025-10-17,185,paid_ads,2025-10
+usr_0490,Welch IO,mirandadavidson@fisher-salazar.biz,starter,49,active,2026-03-28,,,0,GB,Marketing / AdTech,2026-03-28,23,organic,2026-03
+usr_0491,Miller LLC,lawrencedelgado@adams.info,pro,399,active,2026-01-18,,,0,FR,HR Tech,2026-01-18,92,partner,2026-01
+usr_0492,Norman Digital Ltd,julie87@jackson-dickerson.com,pro,399,active,2025-10-29,,,0,DE,SaaS / Software,2025-10-29,173,organic,2025-10
+usr_0493,Luna Digital Ltd,shelby13@sanders.com,pro,399,active,2026-01-05,,,0,US,Healthcare Tech,2026-01-05,105,paid_ads,2026-01
+usr_0494,Kelley-Johnson,fwarren@baker.com,growth,149,active,2026-02-04,,,0,FR,Real Estate Tech,2026-02-04,75,paid_ads,2026-02
+usr_0495,Pena Analytics Inc,pparker@mitchell.com,growth,149,active,2025-12-16,,,0,US,Logistics,2025-12-16,125,organic,2025-12
+usr_0496,Johnson LLC,michelle78@dunn-taylor.net,enterprise,999,active,2026-02-05,,,0,US,HR Tech,2026-02-05,74,organic,2026-02
+usr_0497,Garza Group,omills@collins.com,starter,49,active,2026-01-28,,,2,GB,SaaS / Software,2026-01-28,82,paid_ads,2026-01
+usr_0498,Ramos Ventures Inc,robert24@smith.com,pro,399,active,2026-04-02,,,0,US,E-commerce,2026-04-02,18,sales,2026-04
+usr_0499,Mitchell Solutions Inc,wattstravis@evans-cannon.com,enterprise,999,active,2026-02-15,,,0,US,Healthcare Tech,2026-02-15,64,referral,2026-02
+usr_0500,"Hall, Smith and Brooks",bkhan@wright-espinoza.biz,growth,149,active,2026-01-27,,,0,GB,Healthcare Tech,2026-01-27,83,organic,2026-01
