@@ -20,6 +20,8 @@ from faker import Faker
 from datetime import date, timedelta
 import random, os, uuid
 
+VERBOSE = False
+
 logging.basicConfig(
     level=logging.INFO,
     format='[%(asctime)s]: %(message)s'
@@ -139,8 +141,8 @@ def generate_events_for_user(user: pd.Series) -> list:
         p2_end = signup_date + timedelta(days=int(tenure_days * 0.85))
         phases = [
             (signup_date, p1_end,   1.0),
-            (p1_end,      p2_end,   0.4),
-            (p2_end,      active_end, 0.08),
+            (p1_end,      p2_end,   0.35),
+            (p2_end,      active_end, 0.02),
         ]
 
     records = []
@@ -253,27 +255,29 @@ if __name__ == "__main__":
         .round(1)
     )
     logging.info("\nAvg events per user (active vs churned):\n%s", avg.to_string())
+    
+    if VERBOSE:
+        logging.info("\nTop 8 events:\n%s", df["event_name"].value_counts().head(8).to_string())
+    
+    if VERBOSE:
+        logging.info("\nDecay check (churned users, events by phase):")
+        churned_ids = subs[subs.status == "churned"][["user_id","signup_date","churn_date"]].copy()
+        churned_ids["signup_date"] = pd.to_datetime(churned_ids["signup_date"])
+        churned_ids["churn_date"]  = pd.to_datetime(churned_ids["churn_date"])
+        churned_ids["tenure"]      = (churned_ids["churn_date"] - churned_ids["signup_date"]).dt.days
+        churned_ids["p1_end"]      = churned_ids["signup_date"] + pd.to_timedelta((churned_ids["tenure"] * 0.60).astype(int), unit="D")
+        churned_ids["p2_end"]      = churned_ids["signup_date"] + pd.to_timedelta((churned_ids["tenure"] * 0.85).astype(int), unit="D")
 
-    logging.info("\nTop 8 events:\n%s", df["event_name"].value_counts().head(8).to_string())
+        evts_c = df[df.status == "churned"].merge(churned_ids, on="user_id")
+        evts_c["event_date"] = pd.to_datetime(evts_c["event_date"])
 
-    logging.info("\nDecay check (churned users, events by phase):")
-    churned_ids = subs[subs.status == "churned"][["user_id","signup_date","churn_date"]].copy()
-    churned_ids["signup_date"] = pd.to_datetime(churned_ids["signup_date"])
-    churned_ids["churn_date"]  = pd.to_datetime(churned_ids["churn_date"])
-    churned_ids["tenure"]      = (churned_ids["churn_date"] - churned_ids["signup_date"]).dt.days
-    churned_ids["p1_end"]      = churned_ids["signup_date"] + pd.to_timedelta((churned_ids["tenure"] * 0.60).astype(int), unit="d")
-    churned_ids["p2_end"]      = churned_ids["signup_date"] + pd.to_timedelta((churned_ids["tenure"] * 0.85).astype(int), unit="d")
-
-    evts_c = df[df.status == "churned"].merge(churned_ids, on="user_id")
-    evts_c["event_date"] = pd.to_datetime(evts_c["event_date"])
-
-    phase1 = (evts_c["event_date"] <= evts_c["p1_end"]).sum()
-    phase2 = ((evts_c["event_date"] > evts_c["p1_end"]) & (evts_c["event_date"] <= evts_c["p2_end"])).sum()
-    phase3 = (evts_c["event_date"] > evts_c["p2_end"]).sum()
-    total  = phase1 + phase2 + phase3
-    logging.info(f"  Phase 1 (normal):   {phase1:,}  ({phase1/total*100:.0f}%)")
-    logging.info(f"  Phase 2 (decline):  {phase2:,}  ({phase2/total*100:.0f}%)")
-    logging.info(f"  Phase 3 (silent):   {phase3:,}  ({phase3/total*100:.0f}%)")
+        phase1 = (evts_c["event_date"] <= evts_c["p1_end"]).sum()
+        phase2 = ((evts_c["event_date"] > evts_c["p1_end"]) & (evts_c["event_date"] <= evts_c["p2_end"])).sum()
+        phase3 = (evts_c["event_date"] > evts_c["p2_end"]).sum()
+        total  = phase1 + phase2 + phase3
+        logging.info(f"  Phase 1 (normal):   {phase1:,}  ({phase1/total*100:.0f}%)")
+        logging.info(f"  Phase 2 (decline):  {phase2:,}  ({phase2/total*100:.0f}%)")
+        logging.info(f"  Phase 3 (silent):   {phase3:,}  ({phase3/total*100:.0f}%)")
 
     df.drop(columns=["plan","status"], inplace=True)
 
