@@ -1,0 +1,35 @@
+campaign_id,campaign_name,campaign_type,segment,send_date,subject_line
+cmp_023,Re-engagement #1 — Apr 2025,re_engagement,low_activity,2025-04-28,We miss you — here's what you've missed
+cmp_017,Upgrade Offer #1 — May 2025,upsell,starter_growth,2025-05-11,You're outgrowing your current plan
+cmp_024,Re-engagement #2 — May 2025,re_engagement,low_activity,2025-05-17,It's been a while. Come back?
+cmp_001,Monthly Newsletter — May 2025,newsletter,all_active,2025-05-31,Your monthly product update is here
+cmp_025,Re-engagement #3 — Jun 2025,re_engagement,low_activity,2025-06-05,Your dashboard has new insights waiting
+cmp_002,Monthly Newsletter — Jun 2025,newsletter,all_active,2025-06-06,What's new this month at SaaS Co
+cmp_003,Monthly Newsletter — Jul 2025,newsletter,all_active,2025-07-06,This month in analytics — your digest
+cmp_004,Monthly Newsletter — Jul 2025,newsletter,all_active,2025-07-24,"Monthly round-up: features, tips & more"
+cmp_031,Winback Campaign #1 — Jul 2025,winback,churned,2025-07-29,We'd love to have you back
+cmp_005,Monthly Newsletter — Jul 2025,newsletter,all_active,2025-07-30,Your monthly product update is here
+cmp_026,Re-engagement #4 — Aug 2025,re_engagement,low_activity,2025-08-13,Don't let your data go stale
+cmp_032,Winback Campaign #2 — Aug 2025,winback,churned,2025-08-15,A lot has changed since you left
+cmp_018,Upgrade Offer #2 — Aug 2025,upsell,starter_growth,2025-08-17,Unlock these features on the next tier
+cmp_019,Upgrade Offer #3 — Aug 2025,upsell,starter_growth,2025-08-30,Teams like yours upgraded last month
+cmp_006,Monthly Newsletter — Sep 2025,newsletter,all_active,2025-09-22,What's new this month at SaaS Co
+cmp_013,Q3 Promotion — 2025,promo,all_active,2025-09-30,Limited time: 20% off all annual plans
+cmp_007,Monthly Newsletter — Oct 2025,newsletter,all_active,2025-10-18,This month in analytics — your digest
+cmp_027,Re-engagement #5 — Oct 2025,re_engagement,low_activity,2025-10-31,Still there? Your account is active
+cmp_008,Monthly Newsletter — Nov 2025,newsletter,all_active,2025-11-04,"Monthly round-up: features, tips & more"
+cmp_014,Q4 Promotion — 2025,promo,all_active,2025-11-14,Upgrade today — exclusive Q-end offer
+cmp_015,Q4 Promotion — 2025,promo,all_active,2025-11-26,Special offer inside — ends this Friday
+cmp_033,Winback Campaign #3 — Nov 2025,winback,churned,2025-11-26,Special offer — come back at 30% off
+cmp_028,Re-engagement #6 — Dec 2025,re_engagement,low_activity,2025-12-14,Quick check-in from the team
+cmp_009,Monthly Newsletter — Dec 2025,newsletter,all_active,2025-12-18,Your monthly product update is here
+cmp_010,Monthly Newsletter — Jan 2026,newsletter,all_active,2026-01-03,What's new this month at SaaS Co
+cmp_029,Re-engagement #7 — Jan 2026,re_engagement,low_activity,2026-01-03,New features since you last logged in
+cmp_020,Upgrade Offer #4 — Jan 2026,upsell,starter_growth,2026-01-08,See what Pro users are doing differently
+cmp_016,Q1 Promotion — 2026,promo,all_active,2026-01-19,Your discount expires in 48 hours
+cmp_011,Monthly Newsletter — Jan 2026,newsletter,all_active,2026-01-22,This month in analytics — your digest
+cmp_030,Re-engagement #8 — Feb 2026,re_engagement,low_activity,2026-02-07,Your team is waiting for you
+cmp_021,Upgrade Offer #5 — Mar 2026,upsell,starter_growth,2026-03-10,Ready to scale? Here's what's waiting
+cmp_034,Winback Campaign #4 — Mar 2026,winback,churned,2026-03-16,We fixed the things that bothered you
+cmp_012,Monthly Newsletter — Mar 2026,newsletter,all_active,2026-03-26,"Monthly round-up: features, tips & more"
+cmp_022,Upgrade Offer #6 — Apr 2026,upsell,starter_growth,2026-04-17,Your usage suggests you need more power
