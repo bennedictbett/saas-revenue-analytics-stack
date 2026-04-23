@@ -37,17 +37,35 @@ monthly_churned AS (
 ),
 
 -- net MRR per month
+all_months AS (
+    SELECT DISTINCT DATE_TRUNC('month', signup_date) AS month
+    FROM read_csv_auto('data/subscriptions.csv')
+
+    UNION
+
+    SELECT DATE_TRUNC('month', churn_date) AS month
+    FROM read_csv_auto('data/subscriptions.csv')
+    WHERE churn_date IS NOT NULL
+),
+
 combined AS (
     SELECT
-        n.month,
-        n.new_customers,
-        n.new_mrr,
-        COALESCE(c.churned_customers, 0)        AS churned_customers,
-        COALESCE(c.churned_mrr, 0)              AS churned_mrr,
-        n.new_mrr - COALESCE(c.churned_mrr, 0) AS net_mrr
-    FROM monthly_new n
-    LEFT JOIN monthly_churned c USING (month)
+        m.month,
+
+        COALESCE(n.new_customers, 0)      AS new_customers,
+        COALESCE(n.new_mrr, 0)            AS new_mrr,
+
+        COALESCE(c.churned_customers, 0)  AS churned_customers,
+        COALESCE(c.churned_mrr, 0)        AS churned_mrr,
+
+        COALESCE(n.new_mrr, 0)
+        - COALESCE(c.churned_mrr, 0)      AS net_mrr
+
+    FROM all_months m
+    LEFT JOIN monthly_new n     ON m.month = n.month
+    LEFT JOIN monthly_churned c ON m.month = c.month
 ),
+
 
 -- cumulative MRR (running total)
 with_cumulative AS (
