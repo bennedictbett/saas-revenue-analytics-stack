@@ -2,3 +2,13 @@ pandas
 numpy
 Faker
 duckdb
+
+scikit-learn
+xgboost
+matplotlib
+seaborn
+
+jupyter
+notebook
+
+shap
