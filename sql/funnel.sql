@@ -1,16 +1,10 @@
--- ============================================================
 -- funnel.sql — Lead-to-Customer Conversion Funnel
--- ============================================================
--- Answers screening question 5 (attribution gap analysis).
---
+
 -- 4 sections:
 --   1. funnel_overview      → volume + drop-off at each stage
 --   2. conversion_by_source → which channels convert best
 --   3. loss_reasons         → where and why leads die
 --   4. time_to_convert      → days from lead to signup by source/plan
---
--- Run: python sql/run_query.py funnel
--- ============================================================
 
 WITH leads AS (
     SELECT
@@ -36,7 +30,7 @@ leads_with_mrr AS (
         USING (user_id)
 ),
 
--- ── 1. FUNNEL OVERVIEW ────────────────────────────────────────
+--FUNNEL OVERVIEW
 stage_order AS (
     SELECT 1 AS ord, 'new'         AS stage
     UNION ALL SELECT 2, 'qualified'
@@ -69,7 +63,7 @@ funnel_overview AS (
     LEFT JOIN stage_counts sc USING (stage)
 ),
 
--- ── 2. CONVERSION BY SOURCE ───────────────────────────────────
+-- CONVERSION BY SOURCE 
 conversion_by_source AS (
     SELECT
         source,
@@ -90,7 +84,7 @@ conversion_by_source AS (
     ORDER BY conversion_rate_pct DESC
 ),
 
--- ── 3. LOSS REASONS ───────────────────────────────────────────
+-- LOSS REASONS
 loss_reasons AS (
     SELECT
         stage,
@@ -107,7 +101,7 @@ loss_reasons AS (
     ORDER BY stage, lost_leads DESC
 ),
 
--- ── 4. TIME TO CONVERT ────────────────────────────────────────
+-- TIME TO CONVERT
 time_to_convert AS (
     SELECT
         source,
@@ -129,7 +123,7 @@ time_to_convert AS (
     ORDER BY avg_days
 ),
 
--- ── COMBINE INTO ONE OUTPUT ───────────────────────────────────
+--COMBINE INTO ONE OUTPUT
 all_sections AS (
     SELECT
         '1_funnel'                                  AS section,
