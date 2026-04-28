@@ -12,3 +12,4 @@ jupyter
 notebook
 
 shap
+prophet
