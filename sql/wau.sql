@@ -1,13 +1,13 @@
 
--- wau.sql — Weekly Active Users (WAU)
+--  — Weekly Active Users
 --
 -- WAU = distinct users who performed at least one event in a
 -- given calendar week.
 --
 -- Layers:
---   1. weekly_active   → raw WAU count per week
---   2. with_growth     → adds WoW absolute + % change
---   3. final           → adds 4-week rolling average (smooths noise)
+--   1. weekly_active 
+--   2. with_growth    
+--   3. final           
 --
 -- Run locally:
 --   python sql/run_query.py wau
